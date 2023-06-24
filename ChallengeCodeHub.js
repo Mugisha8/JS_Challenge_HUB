@@ -2526,6 +2526,16 @@
 
     // //adding event listener to listItem
 
+    listItem.addEventListener("click", function () {
+        listItem.classList.toggle("completed");
+      });
+
+      taskList.appendChild(listItem);
+    }
+  });
+});
+-----------
+
 
 
 
