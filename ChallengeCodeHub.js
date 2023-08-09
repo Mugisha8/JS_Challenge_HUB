@@ -2511,7 +2511,7 @@
 
  // add event listener
 
- addButton.addEventListener("click", function () {
+//  addButton.addEventListener("click", function () {
     //get value from input
 
 
