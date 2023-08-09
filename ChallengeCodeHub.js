@@ -2509,6 +2509,11 @@
 //     const addButton = document.getElementById("addTodo");
 //     const taskList = document.getElementById("todolist");
 
+ // add event listener
+
+ addButton.addEventListener("click", function () {
+    //get value from input
+
 
 
 
