@@ -2504,10 +2504,10 @@
 
 //get Dom reference
 
-document.addEventListener("DOMContentLoaded", function () {
-    const inputTask = document.getElementById("newTodo");
-    const addButton = document.getElementById("addTodo");
-    const taskList = document.getElementById("todolist");
+// document.addEventListener("DOMContentLoaded", function () {
+//     const inputTask = document.getElementById("newTodo");
+//     const addButton = document.getElementById("addTodo");
+//     const taskList = document.getElementById("todolist");
 
 
 
