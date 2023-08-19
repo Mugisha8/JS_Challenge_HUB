@@ -2515,6 +2515,13 @@
     //get value from input
 
 
+    const todoText = inputTask.value;
+
+    //check if the input value is empty
+
+    if (todoText.trim() !== "") {
+
+
 
 
 
