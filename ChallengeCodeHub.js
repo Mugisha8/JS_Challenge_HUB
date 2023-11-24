@@ -90,10 +90,9 @@ const swap = readline.createInterface({
 swap.question("enter your first number to swap: ",(a)=>{
     swap.question("enter your second number to swap",(b)=>{
 
-        let temp=a
+  
 
-        a=b,
-        b=temp
+   [a,b] = [b,a]
 console.log(`The value after swapping is ${a} and another is ${b}`)
 
     })
