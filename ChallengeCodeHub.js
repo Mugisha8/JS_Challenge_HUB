@@ -32,22 +32,46 @@
 
 
 
+// // const readline = require('readline')
+
+// // const squareroot = readline.createInterface({
+
+// //     input:process.stdin,
+// //     output:process.stdout
+// // })
+
+// // squareroot.question("Enter a Number:",(num)=>{
+
+// // num=parseInt(num)
+
+// // root=Math.sqrt(num)
+
+// // console.log(`the square root of a number${num} is ${root}`)
+
+
+
+// })
+
+
 const readline = require('readline')
 
-const squareroot = readline.createInterface({
+const area = readline.createInterface({
 
     input:process.stdin,
     output:process.stdout
 })
 
-squareroot.question("Enter a Number:",(num)=>{
+area.question("Enter the Base: ",(base)=>{
+    area.question("Enter the Height: ",(height)=>{
+    
+    base=parseInt(base)
+    height=parseInt(height)
+    
+    const areatriangle = base*height /2
 
-num=parseInt(num)
-
-root=Math.sqrt(num)
-
-console.log(`the square root of a number${num} is ${root}`)
+    console.log(areatriangle)
 
 
 
+})
 })
