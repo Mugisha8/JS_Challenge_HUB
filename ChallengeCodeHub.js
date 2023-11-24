@@ -77,23 +77,44 @@
 // })
 
 
-const readline = require('readline')
+// const readline = require('readline')
 
-const swap = readline.createInterface({
+// const swap = readline.createInterface({
 
-    input:process.stdin,
-    output:process.stdout
+//     input:process.stdin,
+//     output:process.stdout
 
-})
+// })
 
 
-swap.question("enter your first number to swap: ",(a)=>{
-    swap.question("enter your second number to swap",(b)=>{
+// swap.question("enter your first number to swap: ",(a)=>{
+//     swap.question("enter your second number to swap",(b)=>{
 
   
 
-   [a,b] = [b,a]
-console.log(`The value after swapping is ${a} and another is ${b}`)
+//    [a,b] = [b,a]
+// console.log(`The value after swapping is ${a} and another is ${b}`)
 
-    })
+//     })
+// })
+
+
+const readline = require('readline')
+
+const convert = readline.createInterface({
+    input : process.stdin,
+    output: process.stdout
+})
+
+convert.question("Enter Kilometers you've run: ",(distance)=>{
+
+   const factor=0.6235 
+
+   const miles= distance*factor
+
+   console.log(`The Total Miles you've run in KM is:  ${miles} `)
+
+
+
+
 })
