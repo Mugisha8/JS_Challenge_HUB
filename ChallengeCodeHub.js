@@ -53,25 +53,48 @@
 // })
 
 
+// const readline = require('readline')
+
+// const area = readline.createInterface({
+
+//     input:process.stdin,
+//     output:process.stdout
+// })
+
+// area.question("Enter the Base: ",(base)=>{
+//     area.question("Enter the Height: ",(height)=>{
+    
+//     base=parseInt(base)
+//     height=parseInt(height)
+    
+//     const areatriangle = base*height /2
+
+//     console.log(areatriangle)
+
+
+
+// })
+// })
+
+
 const readline = require('readline')
 
-const area = readline.createInterface({
+const swap = readline.createInterface({
 
     input:process.stdin,
     output:process.stdout
-})
-
-area.question("Enter the Base: ",(base)=>{
-    area.question("Enter the Height: ",(height)=>{
-    
-    base=parseInt(base)
-    height=parseInt(height)
-    
-    const areatriangle = base*height /2
-
-    console.log(areatriangle)
-
-
 
 })
+
+
+swap.question("enter your first number to swap: ",(a)=>{
+    swap.question("enter your second number to swap",(b)=>{
+
+        let temp=a
+
+        a=b,
+        b=temp
+console.log(`The value after swapping is ${a} and another is ${b}`)
+
+    })
 })
