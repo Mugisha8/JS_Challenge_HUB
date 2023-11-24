@@ -99,21 +99,36 @@
 // })
 
 
+// const readline = require('readline')
+
+// const convert = readline.createInterface({
+//     input : process.stdin,
+//     output: process.stdout
+// })
+
+// convert.question("Enter Kilometers you've run: ",(distance)=>{
+
+//    const factor=0.6235 
+
+//    const miles= distance*factor
+
+//    console.log(`The Total Miles you've run in KM is:  ${miles} `)
+
+// })
+
+
 const readline = require('readline')
 
-const convert = readline.createInterface({
-    input : process.stdin,
-    output: process.stdout
+const temp = readline.createInterface({
+    input:process.stdin,
+    output:process.stdout
 })
 
-convert.question("Enter Kilometers you've run: ",(distance)=>{
+temp.question("Enter temp in celcius:",(celcius)=>{
 
-   const factor=0.6235 
+const tempConvert=celcius*1.8 + 32
 
-   const miles= distance*factor
-
-   console.log(`The Total Miles you've run in KM is:  ${miles} `)
-
+console.log(tempConvert)
 
 
 
