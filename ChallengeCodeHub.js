@@ -117,19 +117,25 @@
 // })
 
 
-const readline = require('readline')
+// const readline = require('readline')
 
-const temp = readline.createInterface({
-    input:process.stdin,
-    output:process.stdout
-})
+// const temp = readline.createInterface({
+//     input:process.stdin,
+//     output:process.stdout
+// })
 
-temp.question("Enter temp in celcius:",(celcius)=>{
+// temp.question("Enter temp in celcius:",(celcius)=>{
 
-const tempConvert=celcius*1.8 + 32
+// const tempConvert=celcius*1.8 + 32
 
-console.log(tempConvert)
+// console.log(tempConvert)
+
+// })
 
 
 
-})
+const arr=[1,2,45,6]
+
+const arr1=arr.push(2,3)
+
+console.log(arr.length)
