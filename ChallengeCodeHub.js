@@ -134,8 +134,17 @@
 
 
 
-const arr=[1,2,45,6]
+// const arr=[1,2,45,6]
 
-const arr1=arr.push(2,3)
+// const arr1=arr.push(2,3)
 
-console.log(arr.length)
+// console.log(arr.length)
+
+
+
+
+const n=10
+
+for(let i=1;i<=n;i++){
+    console.log("In love with javascript")
+}
