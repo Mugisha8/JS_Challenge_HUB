@@ -143,8 +143,18 @@
 
 
 
-const n=10
+// const n=10
+
+// for(let i=1;i<=n;i++){
+//     console.log("In love with javascript")
+// }
+
+let total = 0;
+
+const n = 500
 
 for(let i=1;i<=n;i++){
-    console.log("In love with javascript")
+
+    total += i;
 }
+console.log(total)
