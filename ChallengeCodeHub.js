@@ -149,12 +149,38 @@
 //     console.log("In love with javascript")
 // }
 
-let total = 0;
+// let total = 0;
 
-const n = 500
+// const n = 500
 
-for(let i=1;i<=n;i++){
+// for(let i=1;i<=n;i++){
 
-    total += i;
-}
-console.log(total)
+//     total += i;
+// }
+// console.log(total)
+
+
+//--------- endless loop 
+
+
+// const readline = require('readline');
+
+// const positive = readline.createInterface({
+//     input: process.stdin,
+//     output: process.stdout
+// });
+
+// positive.question("Enter a number:", (num) => {
+//     let sum = 0;
+
+//     while (parseInt(num) >= 0) {
+//         sum += parseInt(num);
+
+//         positive.question("Enter a number:", (newNum) => {
+//             num = newNum;
+//         });
+//     }
+
+//     console.log(`The sum of all numbers is ${sum}`);
+//     positive.close();
+// });
