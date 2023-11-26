@@ -334,9 +334,11 @@
 // console.log(sum)
 
 
-let appX = function(num)
-{
-return num * num
-}
+// let appX = function(num)
+// {
+// return num * num
+// }
 
-console.log(appX(5))
+// console.log(appX(5))
+
+
