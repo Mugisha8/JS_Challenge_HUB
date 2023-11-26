@@ -323,14 +323,20 @@
 // program to add two numbers using a function
 // declaring a function
 
-function add(a, b) {
-    return a + b;
+// function add(a, b) {
+//     return a + b;
+// }
+
+// // calling functions
+// let sum = add(3,4);
+
+
+// console.log(sum)
+
+
+let appX = function(num)
+{
+return num * num
 }
 
-// calling functions
-let sum=add(3,4);
-
-
-console.log(sum)
-
-
+console.log(appX(5))
