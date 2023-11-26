@@ -278,19 +278,33 @@
 // console.log(`The sum is ${sum}.`);
 
 
-// program using switch statement
-let a = 2;
+// // program using switch statement
+// let a = 2;
 
-switch (a) {
+// switch (a) {
 
-    case 1:
-        a = 'one';
-        break;
-    case 2:
-        a = 'two';
+//     case 1:
+//         a = 'one';
+//         break;
+//     case 2:
+//         a = 'two';
+//         break;
+//     default:
+//         a = 'not found';
+//         break;
+// }
+// console.log(`The value is ${a}`);
+
+
+// multiple case switch program
+let fruit = 'apple';
+switch(fruit) {
+    case 'apple':
+    case 'mango':
+    case 'pineapple':
+        console.log(`${fruit} is a fruit.`);
         break;
     default:
-        a = 'not found';
+        console.log(`${fruit} is not a fruit.`);
         break;
 }
-console.log(`The value is ${a}`);
