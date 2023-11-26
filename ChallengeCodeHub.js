@@ -364,28 +364,28 @@
 
 // program showing block-scoped concept
 // global variable
-let a = 'Hello';
+// let a = 'Hello';
 
-function greet() {
+// function greet() {
 
-    // local variable
-    let b = 'World';
+//     // local variable
+//     let b = 'World';
 
-    console.log(a + ' ' + b);
+//     console.log(a + ' ' + b);
 
-    if (b == 'World') {
+//     if (b == 'World') {
 
-        // block-scoped variable
-        let c = 'hello';
+//         // block-scoped variable
+//         let c = 'hello';
 
-        console.log(a + ' ' + b + ' ' + c);
-    }
+//         console.log(a + ' ' + b + ' ' + c);
+//     }
 
-    // variable c cannot be accessed here
+//     // variable c cannot be accessed here
 
-}
+// }
 
-greet();
+// greet();
 
 
 
