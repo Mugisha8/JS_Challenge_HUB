@@ -342,10 +342,22 @@
 // console.log(appX(5))
 
 // program to print a text 
+// let a = "hello";
+
+// function greet () {
+//     console.log(a);
+// }
+
+// greet(); // hello
+
+
+// program showing local scope of a variable
 let a = "hello";
 
-function greet () {
-    console.log(a);
+function greet() {
+    let b = "World"
+    console.log(a + b);
 }
 
-greet(); // hello
+greet();
+
