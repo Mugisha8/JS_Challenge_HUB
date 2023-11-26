@@ -297,14 +297,19 @@
 
 
 // multiple case switch program
-let fruit = 'apple';
-switch(fruit) {
-    case 'apple':
-    case 'mango':
-    case 'pineapple':
-        console.log(`${fruit} is a fruit.`);
-        break;
-    default:
-        console.log(`${fruit} is not a fruit.`);
-        break;
+// let fruit = 'apple';
+// switch(fruit) {
+//     case 'apple':
+//     case 'mango':
+//     case 'pineapple':
+//         console.log(`${fruit} is a fruit.`);
+//         break;
+//     default:
+//         console.log(`${fruit} is not a fruit.`);
+//         break;
+// }
+
+// declaring a function named greet()
+function greet() {
+    console.log("Hello there");
 }
