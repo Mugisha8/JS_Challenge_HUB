@@ -446,10 +446,18 @@
 
 
 // object creation
-const person = { 
-    name: 'John',
-    age: 20
-};
-console.log(typeof person); // object
+// const person = { 
+//     name: 'John',
+//     age: 20
+// };
+// console.log(typeof person); // object
 
-console.log(person.name)
+// console.log(person.name)
+
+// const person = { 
+//     name: 'John', 
+//     age: 20, 
+// };
+
+// // accessing property
+// console.log(person["name"]); // John
