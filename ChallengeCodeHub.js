@@ -389,6 +389,13 @@
 
 
 
+// // program to display value
+// let a = 4
 
 
+// function greet(){
 
+// b="Say Hi to Mr Bricks"
+// }
+
+// console.log(b)// undefined
