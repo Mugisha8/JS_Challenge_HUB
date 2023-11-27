@@ -408,17 +408,17 @@
 // }
 
 
-function countdown(number){
-    console.log(number)
+// function countdown(number){
+//     console.log(number)
 
-    const newnumber = number-1
+//     const newnumber = number-1
 
-   if(newnumber>0){
-    countdown(newnumber)
-   }
-}
+//    if(newnumber>0){
+//     countdown(newnumber)
+//    }
+// }
 
-countdown(4)
+// countdown(4)
 
 
 
