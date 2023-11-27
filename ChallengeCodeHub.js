@@ -399,3 +399,10 @@
 // }
 
 // console.log(b)// undefined
+
+
+greet()
+
+function greet(){
+    console.log('Hello world')
+}
