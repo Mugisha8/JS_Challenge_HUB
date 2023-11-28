@@ -499,12 +499,12 @@
 
 
 
-// let student ={}
+let student ={}
 
-// student.age=23
+student.age=23
 
-// student.name=function(){
-//     console.log("Meight")
-// }
+student.name=function(){
+    console.log("Meight")
+}
 
-// student.name();
+student.name();
