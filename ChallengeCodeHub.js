@@ -496,3 +496,15 @@
 // let result = parseInt(number);
 
 // console.log(result); // 23
+
+
+
+let student ={}
+
+student.age=23
+
+student.name=function(){
+    console.log("Meight")
+}
+
+student.name();
