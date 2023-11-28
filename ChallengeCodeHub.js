@@ -499,12 +499,22 @@
 
 
 
-let student ={}
+// let student ={}
 
-student.age=23
+// student.age=23
 
-student.name=function(){
-    console.log("Meight")
-}
+// student.name=function(){
+//     console.log("Meight")
+// }
 
-student.name();
+// student.name();
+
+const person = {
+    name: 'John',
+    age: 30,
+
+    // accessing name property by using this.name
+    greet: function() { console.log('The name is' + ' ' + this.name); }
+};
+
+person.greet();
