@@ -516,12 +516,38 @@
 
 
 
-const student = {
-    firstname:"yves",
+// const student = {
+//     firstname:"yves",
 
-    get information() {
-return this.firstname;
-    }
+//     get information() {
+// return this.firstname;
+//     }
+// }
+
+// console.log(student.information)
+
+
+const student = {
+    firstname:'yves'
 }
 
-console.log(student.information)
+// using getter method
+Object.defineProperty(student,'getname',{
+    get : function(){
+        return this.firstname
+    }
+})
+
+// using setter method
+object.defineProperty(student,'changename',{
+    set: function(value){
+        this.firstname=value;
+    }
+}) 
+
+// changing the property value of student object
+student.changename='MUGISHA'
+
+console.log(student.firstname)
+
+
