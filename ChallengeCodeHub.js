@@ -471,14 +471,20 @@
 
 // person.greet();
 
+// function City (){
+//     this.name="John",
+//     this.age=23,
+//     this.greet = function (){
+//         console.log("hello" +' '+ this.name +', '+ "are you" +' '+ this.age+'?');
+//     }
+// }
+// const vision = new City();
+// vision.greet()
 
-
-function City (){
-    this.name="John",
-    this.age=23,
-    this.greet = function (){
-        console.log("hello" +' '+ this.name +', '+ "are you" +' '+ this.age+'?');
-    }
+function City(street, postcode) {
+  (this.name = street), (this.code = postcode);
 }
-const vision = new City();
-vision.greet()
+
+const navigation = new City("Kimihurura", 23748);
+
+console.log("Am From"+" "+navigation.name + " " + navigation.code);
