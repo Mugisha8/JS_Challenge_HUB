@@ -559,7 +559,7 @@ AddTextButton.addEventListener("click", () => {
     });
 
     const span = document.createElement("span");
-    span.textContent = "Tasktext";
+    span.textContent = Tasktext;
 
     const removeButton = document.createElement("button");
     removeButton.textContent = "Delete";
