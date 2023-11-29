@@ -5,11 +5,9 @@
 
 // console.log("The sum of " + num1 + " and " + num2 + "is" , sum);
 
-
-
 // // const readline = require('readline');
 
-// // const add = readline.createInterface({  
+// // const add = readline.createInterface({
 // //     input:process.stdin,
 // //     output:process.stdout
 // // })
@@ -19,18 +17,14 @@
 
 // //     num1=parseInt(num1);
 // //     num2=parseInt(num2);
-    
+
 // //     const sum = num1 + num2
 
 // //     console.log(`the sum of ${num1} and ${num2} is ${sum}`);
 
-
-
 // })
 
 // })
-
-
 
 // // const readline = require('readline')
 
@@ -48,10 +42,7 @@
 
 // // console.log(`the square root of a number${num} is ${root}`)
 
-
-
 // })
-
 
 // const readline = require('readline')
 
@@ -63,19 +54,16 @@
 
 // area.question("Enter the Base: ",(base)=>{
 //     area.question("Enter the Height: ",(height)=>{
-    
+
 //     base=parseInt(base)
 //     height=parseInt(height)
-    
+
 //     const areatriangle = base*height /2
 
 //     console.log(areatriangle)
 
-
-
 // })
 // })
-
 
 // const readline = require('readline')
 
@@ -86,18 +74,14 @@
 
 // })
 
-
 // swap.question("enter your first number to swap: ",(a)=>{
 //     swap.question("enter your second number to swap",(b)=>{
-
-  
 
 //    [a,b] = [b,a]
 // console.log(`The value after swapping is ${a} and another is ${b}`)
 
 //     })
 // })
-
 
 // const readline = require('readline')
 
@@ -108,14 +92,13 @@
 
 // convert.question("Enter Kilometers you've run: ",(distance)=>{
 
-//    const factor=0.6235 
+//    const factor=0.6235
 
 //    const miles= distance*factor
 
 //    console.log(`The Total Miles you've run in KM is:  ${miles} `)
 
 // })
-
 
 // const readline = require('readline')
 
@@ -132,16 +115,11 @@
 
 // })
 
-
-
 // const arr=[1,2,45,6]
 
 // const arr1=arr.push(2,3)
 
 // console.log(arr.length)
-
-
-
 
 // const n=10
 
@@ -159,9 +137,7 @@
 // }
 // console.log(total)
 
-
-//--------- endless loop 
-
+//--------- endless loop
 
 // const readline = require('readline');
 
@@ -185,29 +161,25 @@
 //     positive.close();
 // });
 
-
 // let i=1;
 // let sum=0;
 
 // do{
 //     sum += i
-    
+
 // i++
 // }
 // while(i<=10)
 // console.log(sum)
 
-
 // // program to print the value of i
 // for (let i = 1; i <= 5; i++) {
-//     // break condition     
+//     // break condition
 //     if (i == 3) {
 //         break;
 //     }
 //     console.log(i);
 // }
-
-
 
 // // nested for loops
 
@@ -226,7 +198,7 @@
 // // program to print the value of i
 // for (let i = 1; i <= 5; i++) {
 
-//     // condition to continue    
+//     // condition to continue
 //     if (i == 3) {
 //         continue;
 //     }
@@ -277,7 +249,6 @@
 // // display the sum
 // console.log(`The sum is ${sum}.`);
 
-
 // // program using switch statement
 // let a = 2;
 
@@ -294,7 +265,6 @@
 //         break;
 // }
 // console.log(`The value is ${a}`);
-
 
 // multiple case switch program
 // let fruit = 'apple';
@@ -319,7 +289,6 @@
 // // calling the function
 // greet();
 
-
 // program to add two numbers using a function
 // declaring a function
 
@@ -330,9 +299,7 @@
 // // calling functions
 // let sum = add(3,4);
 
-
 // console.log(sum)
-
 
 // let appX = function(num)
 // {
@@ -341,7 +308,7 @@
 
 // console.log(appX(5))
 
-// program to print a text 
+// program to print a text
 // let a = "hello";
 
 // function greet () {
@@ -349,7 +316,6 @@
 // }
 
 // greet(); // hello
-
 
 // program showing local scope of a variable
 // let a = "hello";
@@ -360,7 +326,6 @@
 // }
 
 // greet();
-
 
 // program showing block-scoped concept
 // global variable
@@ -387,11 +352,8 @@
 
 // greet();
 
-
-
 // // program to display value
 // let a = 4
-
 
 // function greet(){
 
@@ -400,13 +362,11 @@
 
 // console.log(b)// undefined
 
-
 // greet()
 
 // function greet(){
 //     console.log('Hello world')
 // }
-
 
 // function countdown(number){
 //     console.log(number)
@@ -442,11 +402,8 @@
 //     console.log(`The factorial of ${num} is ${result}`);
 // }
 
-
-
-
 // object creation
-// const person = { 
+// const person = {
 //     name: 'John',
 //     age: 20
 // };
@@ -454,16 +411,16 @@
 
 // console.log(person.name)
 
-// const person = { 
-//     name: 'John', 
-//     age: 20, 
+// const person = {
+//     name: 'John',
+//     age: 20,
 // };
 
 // // accessing property
 // console.log(person["name"]); // John
 
-// const student = { 
-//     name: 'John', 
+// const student = {
+//     name: 'John',
 //     age: 20,
 //     marks: {
 //         science: 70,
@@ -477,8 +434,6 @@
 // // accessing property of marks object
 // console.log(student.marks.science); // 70
 
-
-
 // accessing method and property
 // const person = {
 //     name: 'John',
@@ -491,13 +446,10 @@
 // // accessing method
 // person.greet(); // hello
 
-
 // let number = '23.32';
 // let result = parseInt(number);
 
 // console.log(result); // 23
-
-
 
 // let student ={}
 
@@ -518,3 +470,15 @@
 // };
 
 // person.greet();
+
+
+
+function City (){
+    this.name="John",
+    this.age=23,
+    this.greet = function (){
+        console.log("hello" +' '+ this.name +', '+ "are you" +' '+ this.age+'?');
+    }
+}
+const vision = new City();
+vision.greet()
