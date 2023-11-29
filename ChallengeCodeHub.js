@@ -527,19 +527,19 @@
 // console.log(student.information)
 
 
-function Person(){
-    fname:"Keylah"
-}
+// function Person(){
+//     fname:"Keylah"
+// }
 
-const person1 = new Person();
+// const person1 = new Person();
 
-Person.prototype.age = 20
+// Person.prototype.age = 20
 
-console.log("the age of the first person is:",person1.age)
+// console.log("the age of the first person is:",person1.age)
 
-Person.prototype={age:60}
+// Person.prototype={age:60}
 
-const person2 = new Person();
+// const person2 = new Person();
 
-console.log("the age of the first person is:",person2.age)
+// console.log("the age of the first person is:",person2.age)
 
