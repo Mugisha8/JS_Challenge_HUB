@@ -567,7 +567,7 @@ AddTextButton.addEventListener("click", () => {
     removeButton.addEventListener("click", () => {
       TaskItem.parentNode.removeChild(TaskItem);
     });
-    
+
     TaskList.appendChild(TaskItem);
     TaskItem.appendChild(CheckBox);
     TaskItem.appendChild(span);
