@@ -527,27 +527,19 @@
 // console.log(student.information)
 
 
-const student = {
-    firstname:'yves'
+function Person(){
+    fname:"Keylah"
 }
 
-// using getter method
-Object.defineProperty(student,'getname',{
-    get : function(){
-        return this.firstname
-    }
-})
+const person1 = new Person();
 
-// using setter method
-object.defineProperty(student,'changename',{
-    set: function(value){
-        this.firstname=value;
-    }
-}) 
+Person.prototype.age = 20
 
-// changing the property value of student object
-student.changename='MUGISHA'
+console.log("the age of the first person is:",person1.age)
 
-console.log(student.firstname)
+Person.prototype={age:60}
 
+const person2 = new Person();
+
+console.log("the age of the first person is:",person2.age)
 
