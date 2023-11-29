@@ -513,9 +513,6 @@
 // // person2 doesn't have greet() method
 // person2.greet();
 
-
-
-
 // const student = {
 //     firstname:"yves",
 
@@ -525,7 +522,6 @@
 // }
 
 // console.log(student.information)
-
 
 // function Person(){
 //     fname:"Keylah"
@@ -543,3 +539,20 @@
 
 // console.log("the age of the first person is:",person2.age)
 
+//_________________ To Do app strt
+
+const inputText = document.getElementById('inputText');
+const AddTextButton = document.getElementById('addText');
+const TaskList = document.getElementById('task item')
+
+
+AddTextButton.addEventListener("click",()=>{
+    const Tasktext = inputText.ariaValueMax.trim()
+})
+
+
+
+
+
+
+//_________________ To Do app end
