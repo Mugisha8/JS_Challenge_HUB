@@ -543,12 +543,37 @@
 
 const inputText = document.getElementById("inputText");
 const AddTextButton = document.getElementById("addText");
-const TaskList = document.getElementById("task item");
+const TaskList = document.getElementById("taskitem");
 
 AddTextButton.addEventListener("click", () => {
-  const Tasktext = inputText.ariaValueMax.trim();
+  const Tasktext = inputText.value.trim();
   if (Tasktext) {
     const TaskItem = document.createElement("li");
+
+    const CheckBox = document.createElement("input");
+    CheckBox.type = "checkbox";
+
+    CheckBox.addEventListener("change", () => {
+      const span = TaskItem.querySelector("span");
+      span.classList.toggle("completed");
+    });
+
+    const span = document.createElement("span");
+    span.textContent = "Tasktext";
+
+    const removeButton = document.createElement("button");
+    removeButton.textContent = "Delete";
+
+    removeButton.addEventListener("click", () => {
+      TaskItem.parentNode.removeChild(TaskItem);
+    });
+
+    TaskItem.appendChild(CheckBox);
+    TaskItem.appendChild(span);
+    TaskItem.appendChild(removeButton);
+    TaskItem.appendChild(TaskItem);
+
+    inputText.value = "";
   }
 });
 
