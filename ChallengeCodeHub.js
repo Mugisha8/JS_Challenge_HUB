@@ -541,18 +541,15 @@
 
 //_________________ To Do app strt
 
-const inputText = document.getElementById('inputText');
-const AddTextButton = document.getElementById('addText');
-const TaskList = document.getElementById('task item')
+const inputText = document.getElementById("inputText");
+const AddTextButton = document.getElementById("addText");
+const TaskList = document.getElementById("task item");
 
-
-AddTextButton.addEventListener("click",()=>{
-    const Tasktext = inputText.ariaValueMax.trim()
-})
-
-
-
-
-
+AddTextButton.addEventListener("click", () => {
+  const Tasktext = inputText.ariaValueMax.trim();
+  if (Tasktext) {
+    const TaskItem = document.createElement("li");
+  }
+});
 
 //_________________ To Do app end
