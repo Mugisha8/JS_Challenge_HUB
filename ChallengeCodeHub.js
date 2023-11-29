@@ -481,10 +481,34 @@
 // const vision = new City();
 // vision.greet()
 
-function City(street, postcode) {
-  (this.name = street), (this.code = postcode);
+// function City(street, postcode) {
+//   (this.name = street), (this.code = postcode);
+// }
+
+// const navigation = new City("Kimihurura", 23748);
+
+// console.log("Am From"+" "+navigation.name + " " + navigation.code);
+
+// constructor function
+function Person () {
+    this.name = 'John',
+    this.age = 23
 }
 
-const navigation = new City("Kimihurura", 23748);
+// creating objects
+let person1 = new Person();
+let person2 = new Person();
 
-console.log("Am From"+" "+navigation.name + " " + navigation.code);
+// adding property to person1 object
+person1.gender = 'male';
+
+// adding method to person1 object
+person1.greet = function () {
+    console.log('hello');
+}
+
+person1.greet();   // hello
+
+// Error code
+// person2 doesn't have greet() method
+person2.greet();
