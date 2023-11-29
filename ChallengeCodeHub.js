@@ -543,12 +543,12 @@
 
 const inputText = document.getElementById("inputText");
 const AddTextButton = document.getElementById("addText");
-const TaskList = document.getElementById("taskitem");
+const TaskList = document.getElementById("TaskList");
 
 AddTextButton.addEventListener("click", () => {
   const Tasktext = inputText.value.trim();
   if (Tasktext) {
-    const TaskItem = document.createElement("li");
+    const TaskItem = document.createElement("li", "hr");
 
     const CheckBox = document.createElement("input");
     CheckBox.type = "checkbox";
@@ -567,11 +567,11 @@ AddTextButton.addEventListener("click", () => {
     removeButton.addEventListener("click", () => {
       TaskItem.parentNode.removeChild(TaskItem);
     });
-
+    
+    TaskList.appendChild(TaskItem);
     TaskItem.appendChild(CheckBox);
     TaskItem.appendChild(span);
     TaskItem.appendChild(removeButton);
-    TaskList.appendChild(TaskItem);
 
     inputText.value = "";
   }
