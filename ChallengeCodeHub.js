@@ -582,8 +582,15 @@
 // for (let i = 1; i <= 10; i++) {
 //   console.log(i);
 // }
-console.log("The list of odd numbers is:");
-for (let m=1; m<=100;m+=2){
+// console.log("The list of odd numbers is:");
+// for (let m=1; m<=100;m+=2){
 
-  console.log(m);
+//   console.log(m);
+// }
+let mult=7;
+for(let i=1;i<=12;i++){
+let result=mult*i;
+
+console.log(mult +"*"+ i +"="+result);
+
 }
