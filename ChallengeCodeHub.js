@@ -541,40 +541,40 @@
 
 //_________________ To Do app strt
 
-const inputText = document.getElementById("inputText");
-const AddTextButton = document.getElementById("addText");
-const TaskList = document.getElementById("TaskList");
+// const inputText = document.getElementById("inputText");
+// const AddTextButton = document.getElementById("addText");
+// const TaskList = document.getElementById("TaskList");
 
-AddTextButton.addEventListener("click", () => {
-  const Tasktext = inputText.value.trim();
-  if (Tasktext) {
-    const TaskItem = document.createElement("li", "hr");
+// AddTextButton.addEventListener("click", () => {
+//   const Tasktext = inputText.value.trim();
+//   if (Tasktext) {
+//     const TaskItem = document.createElement("li");
 
-    const CheckBox = document.createElement("input");
-    CheckBox.type = "checkbox";
+//     const span = document.createElement("span");
+//     span.textContent = Tasktext;
 
-    CheckBox.addEventListener("change", () => {
-      const span = TaskItem.querySelector("span");
-      span.classList.toggle("completed");
-    });
+//     const CheckBox = document.createElement("input");
+//     CheckBox.type = "checkbox";
 
-    const span = document.createElement("span");
-    span.textContent = Tasktext;
+//     CheckBox.addEventListener("change", () => {
+//       const span = TaskItem.querySelector("span");
+//       span.classList.toggle("completed");
+//     });
 
-    const removeButton = document.createElement("button");
-    removeButton.textContent = "Delete";
+//     const removeButton = document.createElement("button");
+//     removeButton.textContent = "Delete";
 
-    removeButton.addEventListener("click", () => {
-      TaskItem.parentNode.removeChild(TaskItem);
-    });
+//     removeButton.addEventListener("click", () => {
+//       TaskItem.parentNode.removeChild(TaskItem);
+//     });
 
-    TaskList.appendChild(TaskItem);
-    TaskItem.appendChild(CheckBox);
-    TaskItem.appendChild(span);
-    TaskItem.appendChild(removeButton);
+//     TaskList.appendChild(TaskItem);
+//     TaskItem.appendChild(CheckBox);
+//     TaskItem.appendChild(span);
+//     TaskItem.appendChild(removeButton);
 
-    inputText.value = "";
-  }
-});
+//     inputText.value = "";
+//   }
+// });
 
 //_________________ To Do app end
