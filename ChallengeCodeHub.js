@@ -608,10 +608,10 @@
 //   }
 // }
 
-for (let m = 1; m <= 12; m++) {
-  console.log("multiplication table for"+m);
-  for (let i = 1; i <= 10; i++) {
-    let result = m * i;
-   console.log(m + "*" +i+"="+result)
-  }
-}
+// for (let m = 1; m <= 12; m++) {
+//   console.log("multiplication table for"+m);
+//   for (let i = 1; i <= 10; i++) {
+//     let result = m * i;
+//    console.log(`${m} * ${i} = ${result}`)
+//   }
+// }
