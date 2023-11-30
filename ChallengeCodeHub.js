@@ -616,13 +616,13 @@
 //   }
 // }
 
-let sum=0;
-console.log("The sum of 10 natural  numbers is:")
-for(let i=1;i<=10;i++){
+// let sum=0;
+// console.log("The sum of 10 natural  numbers is:")
+// for(let i=1;i<=10;i++){
 
- sum +=i;
- if (i == 10) {
-  console.log("The sum of 10 natural numbers is:", sum);
-}
+//  sum +=i;
+//  if (i == 10) {
+//   console.log("The sum of 10 natural numbers is:", sum);
+// }
 
-}
+// }
