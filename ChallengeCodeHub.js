@@ -587,10 +587,23 @@
 
 //   console.log(m);
 // }
-let mult=7;
-for(let i=1;i<=12;i++){
-let result=mult*i;
 
-console.log(mult +"*"+ i +"="+result);
+// let mult=7;
+// for(let i=1;i<=12;i++){
+// let result=mult*i;
 
+// console.log(mult +"*"+ i +"="+result);
+
+// }
+
+for (var i = 1;i<=10;i++){
+  printTable(i);
+  println("")
+}
+
+function printTable(n){
+  for(var i=1; i<=10;i++){
+    var row = n+"*"+i+"="+n*i;
+    println(row);
+  }
 }
