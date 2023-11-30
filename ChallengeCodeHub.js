@@ -608,13 +608,13 @@
 //   }
 // }
 
-// for (let m = 1; m <= 12; m++) {
-//   console.log("multiplication table for"+m);
-//   for (let i = 1; i <= 10; i++) {
-//     let result = m * i;
-//    console.log(`${m} * ${i} = ${result}`)
-//   }
-// }
+for (let m = 1; m <= 12; m++) {
+  console.log("multiplication table for"+m);
+  for (let i = 1; i <= 10; i++) {
+    let result = m * i;
+   console.log(`${m} * ${i} = ${result}`)
+  }
+}
 
 // let sum=0;
 // console.log("The sum of 10 natural  numbers is:")
@@ -627,6 +627,8 @@
 
 // }
 
+
+//_____________________________________________
 // Calculate 10!
 // let result = 1;
 
@@ -634,4 +636,6 @@
 //     result *= i;
 // }
 
-// console.log("10! =", result);
+// console.log("10! =", result);'
+
+
