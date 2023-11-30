@@ -579,6 +579,11 @@
 
 //_________________ To Do app end
 
-for (let i = 1; i <= 10; i++) {
-  console.log(i);
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
+console.log("The list of odd numbers is:");
+for (let m=1; m<=100;m+=2){
+
+  console.log(m);
 }
