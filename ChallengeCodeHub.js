@@ -596,14 +596,22 @@
 
 // }
 
-for (var i = 1;i<=10;i++){
-  printTable(i);
-  println("")
-}
+// for (var i = 1;i<=10;i++){
+//   printTable(i);
+//   println("")
+// }
 
-function printTable(n){
-  for(var i=1; i<=10;i++){
-    var row = n+"*"+i+"="+n*i;
-    println(row);
+// function printTable(n){
+//   for(var i=1; i<=10;i++){
+//     var row = n+"*"+i+"="+n*i;
+//     println(row);
+//   }
+// }
+
+for (let m = 1; m <= 12; m++) {
+  console.log("multiplication table for"+m);
+  for (let i = 1; i <= 10; i++) {
+    let result = m * i;
+   console.log(m + "*" +i+"="+result)
   }
 }
