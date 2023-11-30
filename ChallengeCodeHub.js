@@ -629,13 +629,14 @@
 
 
 // _____________________________________________/
-// Calculate 10!
-let result = 1;
+// // Calculate 10!
+// let result = 1;
 
-for (let i = 1; i <= 10; i++) {
-    result *= i;
-}
+// for (let i = 1; i <= 10; i++) {
+//     result *= i;
+// }
 
-console.log("10! =", result);
+// console.log("10! =", result);
 
+console.log(1 === true)
 
