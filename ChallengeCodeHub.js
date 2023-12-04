@@ -657,10 +657,10 @@
 
 
 
-const string = 'code';
+// const string = 'code';
 
-// using for...in loop
-for (let i in string) {
-    console.log(string[i]);
-}
+// // using for...in loop
+// for (let i in string) {
+//     console.log(string[i]);
+// }
 
