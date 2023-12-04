@@ -641,16 +641,16 @@
 // console.log(1 === true)
 
 
-const student = {
-    name: 'Monica',
-    class: 7,
-    age: 12
-}
+// const student = {
+//     name: 'Monica',
+//     class: 7,
+//     age: 12
+// }
 
-// using for...in
-for ( let key in student ) {
+// // using for...in
+// for ( let key in student ) {
 
-    // display the properties
-    console.log(`${key} => ${student[key]}`);
-}
+//     // display the properties
+//     console.log(`${key} => ${student[key]}`);
+// }
 
