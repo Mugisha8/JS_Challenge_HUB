@@ -665,9 +665,9 @@
 // }
 
 // define array
-const arr = [ 'hello', 1, 'JavaScript' ];
+// const arr = [ 'hello', 1, 'JavaScript' ];
 
-// using for...in loop
-for (let x in arr) {
-    console.log(arr[x]);
-}
+// // using for...in loop
+// for (let x in arr) {
+//     console.log(arr[x]);
+// }
