@@ -722,10 +722,10 @@
 //      console.log('Finally will execute every time');
 // }
 
-try {
-    setTimeout(function() {
-        // error in the code
-    }, 3000);
-} catch (e) {
-  console.log( "won't work" );
-}
+// try {
+//     setTimeout(function() {
+//         // error in the code
+//     }, 3000);
+// } catch (e) {
+//   console.log( "won't work" );
+// }
