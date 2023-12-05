@@ -687,3 +687,6 @@
 // const value2 = Symbol('hello');
 
 // console.log(value1 === value2); // false
+
+const x = Symbol('hey');
+console.log(x.description); // hey
