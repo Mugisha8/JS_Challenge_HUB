@@ -693,14 +693,14 @@
 
 // 
 
-let person = {
-    name: "Jack"
-};
+// let person = {
+//     name: "Jack"
+// };
 
-// using string as key
-person.id = 12;
-console.log(person.id); // 12
+// // using string as key
+// person.id = 12;
+// console.log(person.id); // 12
 
-// Another program overwrites value
-person.id = 'Another value';
-console.log(person.id); // Another value
+// // Another program overwrites value
+// person.id = 'Another value';
+// console.log(person.id); // Another value
