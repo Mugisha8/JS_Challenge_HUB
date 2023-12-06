@@ -759,26 +759,26 @@
 // }
 
 
-const number = 5;
-try {
-     // user-defined throw statement
-     throw new Error('This is the throw');
+// const number = 5;
+// try {
+//      // user-defined throw statement
+//      throw new Error('This is the throw');
 
-}
-catch(error) {
-    console.log('An error caught');
-    if( number + 8 > 10) {
+// }
+// catch(error) {
+//     console.log('An error caught');
+//     if( number + 8 > 10) {
 
-        // statements to handle exceptions
-         console.log('Error message: ' + error); 
-        console.log('Error resolved');
-    }
-    else {
-        // cannot handle the exception
-        // rethrow the exception
-        throw new Error('The value is low');
-    }
-}
+//         // statements to handle exceptions
+//          console.log('Error message: ' + error); 
+//         console.log('Error resolved');
+//     }
+//     else {
+//         // cannot handle the exception
+//         // rethrow the exception
+//         throw new Error('The value is low');
+//     }
+// }
 
 
 
