@@ -794,11 +794,5 @@
 
 
 // function expression
-let x = function(x, y) {
-    return x * y;
- }
-//  can be written as
- 
- // function expression using arrow function
- let x = (x, y) => x * y;
+// 
 
