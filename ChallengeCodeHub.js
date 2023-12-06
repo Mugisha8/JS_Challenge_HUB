@@ -816,14 +816,14 @@
 // sum(5); // 10
 // sum(5, 15); // 20
 
-const first_name = "Jack";
-const last_name = "Sparrow";
+// const first_name = "Jack";
+// const last_name = "Sparrow";
 
-console.log('Hello ' + first_name + ' ' + last_name);
+// console.log('Hello ' + first_name + ' ' + last_name);
 
-// This can be achieved using template literal by:
+// // This can be achieved using template literal by:
 
-const first_name = "Jack";
-const last_name = "Sparrow";
+// const first_name = "Jack";
+// const last_name = "Sparrow";
 
-console.log(`Hello ${first_name} ${last_name}`);
+// console.log(`Hello ${first_name} ${last_name}`);
