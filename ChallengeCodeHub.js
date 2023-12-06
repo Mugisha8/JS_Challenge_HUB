@@ -806,12 +806,12 @@
   
 //   console.log(person1.name); // John
 
-function sum(x, y = 5) {
+// function sum(x, y = 5) {
 
-    // take sum
-    // the value of y is 5 if not passed
-    console.log(x + y);
-}
+//     // take sum
+//     // the value of y is 5 if not passed
+//     console.log(x + y);
+// }
 
-sum(5); // 10
-sum(5, 15); // 20
+// sum(5); // 10
+// sum(5, 15); // 20
