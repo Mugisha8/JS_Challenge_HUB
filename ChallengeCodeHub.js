@@ -913,18 +913,4 @@
 
 // x(4,6,7); 
 
-// ES5
-asyncFunction().then(function() {
-    return asyncFunction1();
-}).then(function() {
-    return asyncFunction2();
-}).then(function() {
-    finish;
-});
-// can be written as
-
-// ES6
-asyncFunction()
-.then(() => asyncFunction1())
-.then(() => asyncFunction2())
-.then(() => finish);
+//
