@@ -844,3 +844,8 @@
 // console.log(name); // Sara
 // console.log(age); // 25
 // console.log(gender); // female
+
+
+
+let greet = () => console.log('Hello');
+greet(); // Hello
