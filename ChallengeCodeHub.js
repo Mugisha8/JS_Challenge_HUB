@@ -907,8 +907,8 @@
 // const x = new Person();
 // x.sayName();
 
-let x = () => {
-    console.log(arguments);
-}
+// let x = () => {
+//     console.log(arguments);
+// }
 
-x(4,6,7); 
+// x(4,6,7); 
