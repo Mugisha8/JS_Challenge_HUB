@@ -850,10 +850,10 @@
 // let greet = () => console.log('Hello');
 // greet(); // Hello
 
-let age = 5;
+// let age = 5;
 
-let welcome = (age < 18) ?
-  () => console.log('Baby') :
-  () => console.log('Adult');
+// let welcome = (age < 18) ?
+//   () => console.log('Baby') :
+//   () => console.log('Adult');
 
-welcome(); // Baby
+// welcome(); // Baby
