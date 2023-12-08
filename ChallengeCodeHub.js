@@ -940,11 +940,11 @@
 // console.log(`${result < 10 ? 'Too low': 'Very high'}`)
 
 
-function tagExample(strings) {
-    return strings;
-}
+// function tagExample(strings) {
+//     return strings;
+// }
 
-// passing argument
-const result = tagExample('Hello Jack');
+// // passing argument
+// const result = tagExample('Hello Jack');
 
-console.log(result);
+// console.log(result);
