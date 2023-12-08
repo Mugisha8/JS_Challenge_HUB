@@ -938,3 +938,13 @@
 // console.log(`The sum of 4 + 5 is ${result}`);
 
 // console.log(`${result < 10 ? 'Too low': 'Very high'}`)
+
+
+function tagExample(strings) {
+    return strings;
+}
+
+// passing argument
+const result = tagExample('Hello Jack');
+
+console.log(result);
