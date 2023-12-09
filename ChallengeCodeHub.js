@@ -1019,9 +1019,9 @@
 
 // console.log(obj3); // {x: 1, y: 2, z: 3}
 
-let func = function(...args) {
-    console.log(args);
-}
+// let func = function(...args) {
+//     console.log(args);
+// }
 
-func(3); // [3]
-func(4, 5, 6); // [4, 5, 6]
+// func(3); // [3]
+// func(4, 5, 6); // [4, 5, 6]
