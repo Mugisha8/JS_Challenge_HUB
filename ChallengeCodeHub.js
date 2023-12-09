@@ -966,3 +966,9 @@
 // const result = tagExample`Hello ${name}, How are you?`;
 
 // console.log(result);
+
+const arrValue = ['My', 'name', 'is', 'Jack'];
+
+console.log(arrValue);   // ["My", "name", "is", "Jack"]
+console.log(...arrValue); // My name is Jack
+
