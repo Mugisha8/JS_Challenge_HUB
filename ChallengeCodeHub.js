@@ -1018,3 +1018,10 @@
 // const obj3 = {...obj1, ...obj2};
 
 // console.log(obj3); // {x: 1, y: 2, z: 3}
+
+let func = function(...args) {
+    console.log(args);
+}
+
+func(3); // [3]
+func(4, 5, 6); // [4, 5, 6]
