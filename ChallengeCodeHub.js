@@ -974,8 +974,13 @@
 
 // console.log('My', 'name', 'is', 'Jack');
 
-let arr1=['My', 'name', 'is', 'Jack'];
+// let arr1=['My', 'name', 'is', 'Jack'];
 
-console.log(arr1);
+// console.log(arr1);
 
-console.log(...arr1)
+// console.log(...arr1)
+
+const arr1 = ['one', 'two'];
+const arr2 = [...arr1, 'three', 'four', 'five'];
+
+console.log(arr2); 
