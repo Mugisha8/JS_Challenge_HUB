@@ -980,7 +980,7 @@
 
 // console.log(...arr1)
 
-const arr1 = ['one', 'two'];
-const arr2 = [...arr1, 'three', 'four', 'five'];
+// const arr1 = ['one', 'two'];
+// const arr2 = [...arr1, 'three', 'four', 'five'];
 
-console.log(arr2); 
+// console.log(arr2); 
