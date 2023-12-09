@@ -1011,10 +1011,10 @@
 // console.log(arr1); // [1, 2, 3, 4]
 // console.log(...arr2); // [1, 2, 3]
 
-const obj1 = { x : 1, y : 2 };
-const obj2 = { z : 3 };
+// const obj1 = { x : 1, y : 2 };
+// const obj2 = { z : 3 };
 
-// add members obj1 and obj2  to obj3
-const obj3 = {...obj1, ...obj2};
+// // add members obj1 and obj2  to obj3
+// const obj3 = {...obj1, ...obj2};
 
-console.log(obj3); // {x: 1, y: 2, z: 3}
+// console.log(obj3); // {x: 1, y: 2, z: 3}
