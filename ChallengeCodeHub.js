@@ -972,3 +972,10 @@
 // console.log(arrValue);   // ["My", "name", "is", "Jack"]
 // console.log(...arrValue); // My name is Jack
 
+// console.log('My', 'name', 'is', 'Jack');
+
+let arr1=['My', 'name', 'is', 'Jack'];
+
+console.log(arr1);
+
+console.log(...arr1)
