@@ -1049,10 +1049,10 @@
 // // access the elements of a Map
 // console.log(map1.get('info')); // {name: "Jack", age: "26"}
 
-const set1 = new Set([1, 2, 3]);
+// const set1 = new Set([1, 2, 3]);
 
-let map1 = new Map();
-map1.set('info', {name: 'Jack', age: "26"});
+// let map1 = new Map();
+// map1.set('info', {name: 'Jack', age: "26"});
 
-// check if an element is in Set
-console.log(map1.has('info')); // true
+// // check if an element is in Set
+// console.log(map1.has('info')); // true
