@@ -1035,10 +1035,10 @@
 // sum(...num1); // 8
 
 
-// create a set
-let map1 = new Map();
+// // create a set
+// let map1 = new Map();
 
-// insert key-value pair
-map1.set('info', {name: 'Jack', age: 26});
-console.log(map1); // Map {"info" => {name: "Jack", age: 26}}
+// // insert key-value pair
+// map1.set('info', {name: 'Jack', age: 26});
+// console.log(map1); // Map {"info" => {name: "Jack", age: 26}}
 
