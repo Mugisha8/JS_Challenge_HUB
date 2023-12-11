@@ -1076,12 +1076,23 @@
 //     console.log(key + '- ' + value);
 // }
 
-using forEach method()
-let map1 = new Map();
-map1.set('name', 'Jack');
-map1.set('age', '27');
+// using forEach method()
+// let map1 = new Map();
+// map1.set('name', 'Jack');
+// map1.set('age', '27');
 
-// looping through Map
-map1.forEach(function(value, key) {
-  console.log(key + '- ' + value)
-})
+// // looping through Map
+// map1.forEach(function(value, key) {
+//   console.log(key + '- ' + value)
+// })
+
+
+//___________________ review
+
+// create Set
+const set1 = new Set(); // an empty set
+console.log(set1); // Set {}
+
+// Set with multiple types of value
+const set2 = new Set([1, 'hello', {count : true}]);
+console.log(set2); // Set {1, "hello", {count: true}}
