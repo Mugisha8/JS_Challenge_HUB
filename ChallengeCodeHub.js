@@ -1118,15 +1118,29 @@
 // console.log(set1.has(1));
 
 // assigning object attributes to variables
+// const person = {
+//     name: 'Sara',
+//     age: 25,
+//     gender: 'female'    
+// }
+
+// let name = person.name;
+// let age = person.age;
+// let gender = person.gender;
+
+// console.log(name); // Sara
+// console.log(age); // 25
+// console.log(gender); // female
+
+// assigning object attributes to variables
 const person = {
     name: 'Sara',
     age: 25,
     gender: 'female'    
 }
 
-let name = person.name;
-let age = person.age;
-let gender = person.gender;
+// destructuring assignment
+let { name, age, gender } = person;
 
 console.log(name); // Sara
 console.log(age); // 25
