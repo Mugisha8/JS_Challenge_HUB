@@ -1180,13 +1180,13 @@
 //   console.log(person2.name); // Jack
 
 // constructor function
-function Person (name) {
+// function Person (name) {
 
-    // assigning  parameter values to the calling object
-     this.name = name;
+//     // assigning  parameter values to the calling object
+//      this.name = name;
  
-     // defining method
-     this.greet = function () {
-         return ('Hello' + ' ' + this.name);
-     }
- }
+//      // defining method
+//      this.greet = function () {
+//          return ('Hello' + ' ' + this.name);
+//      }
+//  }
