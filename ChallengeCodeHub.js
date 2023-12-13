@@ -1157,3 +1157,10 @@
 // // create an object
 // const person1 = new Person();
     
+
+// creating a class
+class Person {
+    constructor(name) {
+      this.name = name;
+    }
+  }
