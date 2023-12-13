@@ -1146,4 +1146,14 @@
 // console.log(age); // 25
 // console.log(gender); // female
 
+
+
+// constructor function
+function Person () {
+    this.name = 'John',
+    this.age = 23
+}
+
+// create an object
+const person1 = new Person();
     
