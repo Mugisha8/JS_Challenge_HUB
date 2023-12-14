@@ -1261,11 +1261,11 @@
 // const expandedFormResult = expandedForm(number);
 // console.log(expandedFormResult);
 
-class Person {
-  constructor() {
-    a = 0;
-    this.name = a;
-  }
-}
+// class Person {
+//   constructor() {
+//     a = 0;
+//     this.name = a;
+//   }
+// }
 
-let p = new Person(); // ReferenceError: Can't find variable: a
+// let p = new Person(); // ReferenceError: Can't find variable: a
