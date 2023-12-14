@@ -1211,4 +1211,52 @@
 //     console.log(i);
 // }
 
+// multiplication table from 1-10
 
+// for (let i=1;i<=10;i++){
+
+//     for (let p=1;p<=12;p++){
+
+//         let result= i * p;
+//         console.log(`${i} * ${p} = ${result}`);
+//     }
+// }
+
+// function expandedForm(num) {
+//   const numStr = num.toString();
+//   const result = [];
+
+//   for (let i = 0; i < numStr.length; i++) { // Fix: change 'lenght' to 'length'
+//     const digit = parseInt(numStr[i]);
+
+//     if (digit !== 0) {
+//       const expandedDigit = digit * Math.pow(10, numStr.length - 1 - i);
+//       result.push(expandedDigit);
+//     }
+//   }
+//   return result.join('+');
+// }
+
+// const number = 42;
+// const expandedFormResult = expandedForm(number);
+// console.log(expandedFormResult);
+
+function expandedForm(num) {
+  const numStr = num.toString();
+  const result = [];
+
+  for (let i = 0; i < numStr.length; i++) {
+    const digit = parseInt(numStr[i]);
+
+    if (digit !== 0) {
+      const expandedDigit = digit * Math.pow(10, numStr.length - 1 - i);
+      result.push(expandedDigit);
+    }
+  }
+
+  return result.join(" + ");
+}
+
+const number = 42;
+const expandedFormResult = expandedForm(number);
+console.log(expandedFormResult);
