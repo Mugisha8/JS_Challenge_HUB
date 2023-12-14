@@ -627,7 +627,6 @@
 
 // }
 
-
 // _____________________________________________/
 // // Calculate 10!
 // let result = 1;
@@ -639,7 +638,6 @@
 // console.log("10! =", result);
 
 // console.log(1 === true)
-
 
 // const student = {
 //     name: 'Monica',
@@ -653,9 +651,6 @@
 //     // display the properties
 //     console.log(`${key} => ${student[key]}`);
 // }
-
-
-
 
 // const string = 'code';
 
@@ -680,7 +675,6 @@
 // const x = Symbol('hey');
 // console.log(x.description); // hey
 
-
 // two symbols with the same description
 
 // const value1 = Symbol('hello');
@@ -691,7 +685,7 @@
 // const x = Symbol('hey');
 // console.log(x.description); // hey
 
-// 
+//
 
 // let person = {
 //     name: "Jack"
@@ -705,8 +699,7 @@
 // person.id = 'Another value';
 // console.log(person.id); // Another value
 
-// 
-
+//
 
 // const numerator= 100, denominator = 'a';
 
@@ -715,8 +708,8 @@
 //      console.log(a);
 // }
 // catch(error) {
-//     console.log('An error caught'); 
-//     console.log('Error message: ' + error);  
+//     console.log('An error caught');
+//     console.log('Error message: ' + error);
 // }
 // finally {
 //      console.log('Finally will execute every time');
@@ -738,7 +731,6 @@
 //     }
 // }, 3000);
 
-
 // const number = 40;
 // try {
 //     if(number > 50) {
@@ -754,10 +746,9 @@
 //     console.log('hello');
 // }
 // catch(error) {
-//     console.log('An error caught'); 
-//     console.log('Error message: ' + error);  
+//     console.log('An error caught');
+//     console.log('Error message: ' + error);
 // }
-
 
 // const number = 5;
 // try {
@@ -770,7 +761,7 @@
 //     if( number + 8 > 10) {
 
 //         // statements to handle exceptions
-//          console.log('Error message: ' + error); 
+//          console.log('Error message: ' + error);
 //         console.log('Error resolved');
 //     }
 //     else {
@@ -780,7 +771,6 @@
 //     }
 // }
 
-
 // // // variable declared using let
 // let name = 'Sara';
 // {
@@ -789,21 +779,19 @@
 
 //     console.log(name); // Peter
 // }
-// console.log(name); // Sara 
-
-
+// console.log(name); // Sara
 
 // function expression
-// 
+//
 
 // class Person {
 //     constructor(name) {
 //       this.name = name;
 //     }
 //   }
-  
+
 //   const person1 = new Person('John');
-  
+
 //   console.log(person1.name); // John
 
 // function sum(x, y = 5) {
@@ -823,8 +811,6 @@
 
 // // This can be achieved using template literal by:
 
-
-
 // before you would do something like this
 //
 
@@ -836,7 +822,7 @@
 // const person = {
 //     name: 'Sara',
 //     age: 25,
-//     gender: 'female'    
+//     gender: 'female'
 // }
 
 // let { name, age, gender } = person;
@@ -844,8 +830,6 @@
 // console.log(name); // Sara
 // console.log(age); // 25
 // console.log(gender); // female
-
-
 
 // let greet = () => console.log('Hello');
 // greet(); // Hello
@@ -865,7 +849,6 @@
 
 // let result1 = sum(5,7);
 // console.log(result1); // 12
-
 
 // function Person() {
 //     this.name = 'Jack',
@@ -911,12 +894,11 @@
 //     console.log(arguments);
 // }
 
-// x(4,6,7); 
+// x(4,6,7);
 
 //
 
-
-// 
+//
 
 // using a function in default value expression
 
@@ -927,10 +909,10 @@
 // }
 
 // const result = calculate(10);
-// console.log(result);     
+// console.log(result);
 
 // const name = 'Jack';
-// console.log(`Hello ${name}`); 
+// console.log(`Hello ${name}`);
 
 // const result = 4 + 5;
 
@@ -938,7 +920,6 @@
 // console.log(`The sum of 4 + 5 is ${result}`);
 
 // console.log(`${result < 10 ? 'Too low': 'Very high'}`)
-
 
 // function tagExample(strings) {
 //     return strings;
@@ -983,7 +964,7 @@
 // const arr1 = ['one', 'two'];
 // const arr2 = [...arr1, 'three', 'four', 'five'];
 
-// console.log(arr2); 
+// console.log(arr2);
 
 // let arr1 = [ 1, 2, 3];
 // let arr2 = arr1;
@@ -1034,14 +1015,12 @@
 
 // sum(...num1); // 8
 
-
 // // create a set
 // let map1 = new Map();
 
 // // insert key-value pair
 // map1.set('info', {name: 'Jack', age: 26});
 // console.log(map1); // Map {"info" => {name: "Jack", age: 26}}
-
 
 // let map1 = new Map();
 // map1.set('info', {name: 'Jack', age: "26"});
@@ -1062,7 +1041,7 @@
 
 // // removing a particular element
 // map1.delete('address'); // false
-// console.log(map1); // Map {"info" => {name: "Jack", age: "26"}} 
+// console.log(map1); // Map {"info" => {name: "Jack", age: "26"}}
 
 // map1.delete('info'); // true
 // console.log(map1); // Map {}
@@ -1086,7 +1065,6 @@
 //   console.log(key + '- ' + value)
 // })
 
-
 //___________________ review
 
 // // create Set
@@ -1100,7 +1078,6 @@
 // Set with duplicate values
 // const set3 = new Set([1, 1, 2, 2]);
 // console.log(set3); // Set {1, 2}
-
 
 // const set1 = new Set([1, 2, 3]);
 
@@ -1121,7 +1098,7 @@
 // const person = {
 //     name: 'Sara',
 //     age: 25,
-//     gender: 'female'    
+//     gender: 'female'
 // }
 
 // let name = person.name;
@@ -1136,7 +1113,7 @@
 // const person = {
 //     name: 'Sara',
 //     age: 25,
-//     gender: 'female'    
+//     gender: 'female'
 // }
 
 // // destructuring assignment
@@ -1146,8 +1123,6 @@
 // console.log(age); // 25
 // console.log(gender); // female
 
-
-
 // constructor function
 // function Person () {
 //     this.name = 'John',
@@ -1156,7 +1131,6 @@
 
 // // create an object
 // const person1 = new Person();
-    
 
 // creating a class
 // class Person {
@@ -1171,11 +1145,11 @@
 //       this.name = name;
 //     }
 //   }
-  
+
 //   // creating an object
 //   const person1 = new Person('John');
 //   const person2 = new Person('Jack');
-  
+
 //   console.log(person1.name); // John
 //   console.log(person2.name); // Jack
 
@@ -1184,7 +1158,7 @@
 
 //     // assigning  parameter values to the calling object
 //      this.name = name;
- 
+
 //      // defining method
 //      this.greet = function () {
 //          return ('Hello' + ' ' + this.name);
@@ -1232,3 +1206,9 @@
 // // changing the value of name property
 // person1.personName = 'Sarah';
 // console.log(person1.name); // Sarah
+
+// for(let i=1;i<=100;i++){
+//     console.log(i);
+// }
+
+
