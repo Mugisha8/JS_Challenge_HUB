@@ -1241,22 +1241,31 @@
 // const expandedFormResult = expandedForm(number);
 // console.log(expandedFormResult);
 
-function expandedForm(num) {
-  const numStr = num.toString();
-  const result = [];
+// function expandedForm(num) {
+//   const numStr = num.toString();
+//   const result = [];
 
-  for (let i = 0; i < numStr.length; i++) {
-    const digit = parseInt(numStr[i]);
+//   for (let i = 0; i < numStr.length; i++) {
+//     const digit = parseInt(numStr[i]);
 
-    if (digit !== 0) {
-      const expandedDigit = digit * Math.pow(10, numStr.length - 1 - i);
-      result.push(expandedDigit);
-    }
+//     if (digit !== 0) {
+//       const expandedDigit = digit * Math.pow(10, numStr.length - 1 - i);
+//       result.push(expandedDigit);
+//     }
+//   }
+
+//   return result.join(" + ");
+// }
+
+// const number = 42;
+// const expandedFormResult = expandedForm(number);
+// console.log(expandedFormResult);
+
+class Person {
+  constructor() {
+    a = 0;
+    this.name = a;
   }
-
-  return result.join(" + ");
 }
 
-const number = 42;
-const expandedFormResult = expandedForm(number);
-console.log(expandedFormResult);
+let p = new Person(); // ReferenceError: Can't find variable: a
