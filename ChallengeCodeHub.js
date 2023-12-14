@@ -1323,37 +1323,37 @@
 // student1.greet();
 
 
-// parent class
-class Person { 
-    constructor(name) {
-        this.name = name;
-        this.occupation = "unemployed";
-    }
+// // parent class
+// class Person { 
+//     constructor(name) {
+//         this.name = name;
+//         this.occupation = "unemployed";
+//     }
     
-    greet() {
-        console.log(`Hello ${this.name}.`);
-    }
+//     greet() {
+//         console.log(`Hello ${this.name}.`);
+//     }
  
-}
+// }
 
-// inheriting parent class
-class Student extends Person {
+// // inheriting parent class
+// class Student extends Person {
 
-    constructor(name) {
+//     constructor(name) {
         
-        // call the super class constructor and pass in the name parameter
-        super(name);
+//         // call the super class constructor and pass in the name parameter
+//         super(name);
         
-        // Overriding an occupation property
-        this.occupation = 'Student';
-    }
+//         // Overriding an occupation property
+//         this.occupation = 'Student';
+//     }
     
-    // overriding Person's method
-    greet() {
-        console.log(`Hello student ${this.name}.`);
-        console.log('occupation: ' + this.occupation);
-    }
-}
+//     // overriding Person's method
+//     greet() {
+//         console.log(`Hello student ${this.name}.`);
+//         console.log('occupation: ' + this.occupation);
+//     }
+// }
 
-let p = new Student('Jack');
-p.greet();
+// let p = new Student('Jack');
+// p.greet();
