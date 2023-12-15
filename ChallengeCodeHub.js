@@ -1484,12 +1484,12 @@
 
 
 
-function getpositivenumbers(fltArr){
-    return fltArr.filter(el=>el>=0)
-}
+// function getpositivenumbers(fltArr){
+//     return fltArr.filter(el=>el>=0)
+// }
 
-fltArr = [2,6,-2,-56,-9,56,2];
-console.log(getpositivenumbers(fltArr))
+// fltArr = [2,6,-2,-56,-9,56,2];
+// console.log(getpositivenumbers(fltArr))
 
 
 
