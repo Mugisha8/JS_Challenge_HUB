@@ -1443,21 +1443,22 @@
 // console.log(`The average of this array ${arr} is`,averageofArray(arr))
 
 
-function getpositivenumbers(ar){
+// function getpositivenumbers(ar){
 
-    let arr2=[];
+//     let arr2=[];
 
-    for(let i=1;i<ar.length;i++){
-        let el=ar[i];
+//     for(let i=1;i<ar.length;i++){
+//         let el=ar[i];
 
-        if(el>=0){
-            arr2.push(el);
-        }
+//         if(el>=0){
+//             arr2.push(el);
+//         }
         
-    }
-    return arr2;
-}
+//     }
+//     return arr2;
+// }
 
-ar=[-42,-32,3,5,6,-3];
+// ar=[-42,-32,3,5,6,-3];
 
-console.log(`The positive numbers in this array ${ar} is:`,getpositivenumbers(ar));
+// console.log(`The positive numbers in this array ${ar} is:`,getpositivenumbers(ar));
+
