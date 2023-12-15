@@ -1270,12 +1270,11 @@
 
 // let p = new Person(); // ReferenceError: Can't find variable: a
 
-
 // class Person {}
 // console.log(typeof Person); // function
 
 // // parent class
-// class Person { 
+// class Person {
 //     constructor(name) {
 //         this.name = name;
 //     }
@@ -1293,10 +1292,8 @@
 // let student1 = new Student('Jack');
 // student1.greet();
 
-
-
 // parent class
-// class Person { 
+// class Person {
 //     constructor(name) {
 //         this.name = name;
 //     }
@@ -1310,9 +1307,9 @@
 // class Student extends Person {
 
 //     constructor(name) {
-    
+
 //         console.log("Creating student class");
-        
+
 //         // call the super class constructor and pass in the name parameter
 //         super(name);
 //     }
@@ -1322,32 +1319,31 @@
 // let student1 = new Student('Jack');
 // student1.greet();
 
-
 // // parent class
-// class Person { 
+// class Person {
 //     constructor(name) {
 //         this.name = name;
 //         this.occupation = "unemployed";
 //     }
-    
+
 //     greet() {
 //         console.log(`Hello ${this.name}.`);
 //     }
- 
+
 // }
 
 // // inheriting parent class
 // class Student extends Person {
 
 //     constructor(name) {
-        
+
 //         // call the super class constructor and pass in the name parameter
 //         super(name);
-        
+
 //         // Overriding an occupation property
 //         this.occupation = 'Student';
 //     }
-    
+
 //     // overriding Person's method
 //     greet() {
 //         console.log(`Hello student ${this.name}.`);
@@ -1359,30 +1355,30 @@
 // p.greet();
 
 // // parent class
-// class Person { 
+// class Person {
 //     constructor(name) {
 //         this.name = name;
 //         this.occupation = "unemployed";
 //     }
-    
+
 //     greet() {
 //         console.log(`Hello ${this.name}.`);
 //     }
- 
+
 // }
 
 // inheriting parent class
 // class Student extends Person {
 
 //     constructor(name) {
-        
+
 //         // call the super class constructor and pass in the name parameter
 //         super(name);
-        
+
 //         // Overriding an occupation property
 //         this.occupation = 'Student';
 //     }
-    
+
 //     // overriding Person's method
 //     greet() {
 //         console.log(`Hello student ${this.name}.`);
@@ -1392,7 +1388,6 @@
 
 // let p = new Student('Jack');
 // p.greet();
-
 
 // // array
 // const students = ['John', 'Sara', 'Jack'];
@@ -1405,7 +1400,7 @@
 // }
 
 // string
-// 
+//
 
 // define Map
 // let map = new Map();
@@ -1419,14 +1414,12 @@
 //     console.log(key + '- ' + value);
 // }
 
-
-
 // function sumofArray(ar){
 
 //     let sum =0;
 
 //     for(let i=1;i<=ar.length;i++){
-    
+
 //         sum +=i
 //     }
 //     return sum;
@@ -1435,15 +1428,16 @@
 // let ar=[1,3,5,6,7];
 // console.log(sumofArray(ar));
 
+function averageofArray(arr) {
+  let sum = 0;
+  let n = arr.length;
 
+  for (let i = 1; i < n; i++) {
+    sum += i;
+  }
 
+  return sum / n;
+}
 
-
-
-
-
-
-
-
-
-
+arr = [1,33,67,335,74];
+console.log(`The average of this array ${arr} is`,averageofArray(arr))
