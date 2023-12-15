@@ -1421,19 +1421,21 @@
 
 
 
-function sumofArray(ar){
+// function sumofArray(ar){
 
-    let sum =0;
+//     let sum =0;
 
-    for(let i=1;i<=ar.length;i++){
+//     for(let i=1;i<=ar.length;i++){
     
-        sum +=i
-    }
-    return sum;
-}
+//         sum +=i
+//     }
+//     return sum;
+// }
 
-let ar=[1,3,5,6,7];
-console.log(sumofArray(ar));
+// let ar=[1,3,5,6,7];
+// console.log(sumofArray(ar));
+
+
 
 
 
