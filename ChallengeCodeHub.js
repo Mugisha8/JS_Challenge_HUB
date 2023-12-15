@@ -1463,24 +1463,24 @@
 // console.log(`The positive numbers in this array ${ar} is:`,getpositivenumbers(ar));
 
 
-function positivenumber(arr){
+// function positivenumber(arr){
 
-    ar1 =[];
+//     ar1 =[];
 
-    for (var el of arr){
+//     for (var el of arr){
 
-    if(el>=0){
-ar1.push(el)
-    }
+//     if(el>=0){
+// ar1.push(el)
+//     }
 
-    }
-return ar1
+//     }
+// return ar1
 
 
-}
-arr=[24,44,2,5,3,6,-2,-32,-321]
+// }
+// arr=[24,44,2,5,3,6,-2,-32,-321]
 
-console.log(positivenumber(arr))
+// console.log(positivenumber(arr))
 
 
 
