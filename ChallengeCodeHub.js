@@ -1462,3 +1462,6 @@
 
 // console.log(`The positive numbers in this array ${ar} is:`,getpositivenumbers(ar));
 
+
+
+
