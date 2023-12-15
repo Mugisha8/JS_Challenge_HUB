@@ -1418,3 +1418,30 @@
 // for (let [key, value] of map) {
 //     console.log(key + '- ' + value);
 // }
+
+
+
+function sumofArray(ar){
+
+    let sum =0;
+
+    for(let i=1;i<=ar.length;i++){
+    
+        sum +=i
+    }
+    return sum;
+}
+
+let ar=[1,3,5,6,7];
+console.log(sumofArray(ar));
+
+
+
+
+
+
+
+
+
+
+
