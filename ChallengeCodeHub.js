@@ -1428,16 +1428,16 @@
 // let ar=[1,3,5,6,7];
 // console.log(sumofArray(ar));
 
-function averageofArray(arr) {
-  let sum = 0;
-  let n = arr.length;
+// function averageofArray(arr) {
+//   let sum = 0;
+//   let n = arr.length;
 
-  for (let i = 1; i < n; i++) {
-    sum += i;
-  }
+//   for (let i = 1; i < n; i++) {
+//     sum += i;
+//   }
 
-  return sum / n;
-}
+//   return sum / n;
+// }
 
-arr = [1,33,67,335,74];
-console.log(`The average of this array ${arr} is`,averageofArray(arr))
+// arr = [1,33,67,335,74];
+// console.log(`The average of this array ${arr} is`,averageofArray(arr))
