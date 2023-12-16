@@ -1527,24 +1527,24 @@
 // const proxy = new Proxy(student, handler);
 // console.log(proxy.name); // Jack
 
-let student = {
-    name: 'John'
-}
+// let student = {
+//     name: 'John'
+// }
 
-let setNewValue = {
-  set: function(obj, prop, value) {
+// let setNewValue = {
+//   set: function(obj, prop, value) {
 
-    obj[prop] = value;
-    return;
-  }
-};
+//     obj[prop] = value;
+//     return;
+//   }
+// };
 
-// setting new proxy
-let person = new Proxy(student, setNewValue);
+// // setting new proxy
+// let person = new Proxy(student, setNewValue);
 
-// setting new key/value
-person.age = 25;
-console.log(person); // Proxy {name: "John", age: 25}
+// // setting new key/value
+// person.age = 25;
+// console.log(person); // Proxy {name: "John", age: 25}
 
 
 
