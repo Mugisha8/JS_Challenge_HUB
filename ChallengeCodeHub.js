@@ -1612,18 +1612,18 @@
 
 // program to stop the setTimeout() method
 
-let count = 0;
+// let count = 0;
 
-// function creation
-function increaseCount(){
+// // function creation
+// function increaseCount(){
 
-    // increasing the count by 1
-    count += 1;
-    console.log(count)
-}
+//     // increasing the count by 1
+//     count += 1;
+//     console.log(count)
+// }
 
-let id = setTimeout(increaseCount, 3000);
+// let id = setTimeout(increaseCount, 3000);
 
-// clearTimeout
-clearTimeout(id); 
-console.log('setTimeout is stopped.');
+// // clearTimeout
+// clearTimeout(id); 
+// console.log('setTimeout is stopped.');
