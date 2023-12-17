@@ -1629,9 +1629,9 @@
 // console.log('setTimeout is stopped.');
 
 // program to display a name
-function greet(name, lastName) {
-    console.log('Hello' + ' ' + name + ' ' + lastName);
-}
+// function greet(name, lastName) {
+//     console.log('Hello' + ' ' + name + ' ' + lastName);
+// }
 
-// passing argument to setTimeout
-setTimeout(greet, 1000, 'John', 'Doe');
+// // passing argument to setTimeout
+// setTimeout(greet, 1000, 'John', 'Doe');
