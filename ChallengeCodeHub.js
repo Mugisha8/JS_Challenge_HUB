@@ -1591,47 +1591,50 @@
 
 
 
-// // program to display time every 3 seconds
-// function showTime() {
+// program to display time every 3 seconds
+function showTime() {
 
-//     // return new date and time
-//     let dateTime= new Date();
+    // return new date and time
+    let dateTime= new Date();
 
-//     // returns the current local time
-//     let time = dateTime.toLocaleTimeString();
+    // returns the current local time
+    let time = dateTime.toLocaleTimeString();
 
-//     console.log(time)
+    console.log(time)
 
-//     // display the time after 3 seconds
-//      setTimeout(showTime, 3000);
-// }
+    // display the time after 3 seconds
+     setTimeout(showTime, 3000);
+}
 
-// // calling the function
-// showTime();
+// calling the function
+showTime();
 
 
-// program to stop the setTimeout() method
+program to stop the setTimeout() method
 
-// let count = 0;
+let count = 0;
 
-// // function creation
-// function increaseCount(){
+// function creation
+function increaseCount(){
 
-//     // increasing the count by 1
-//     count += 1;
-//     console.log(count)
-// }
+    // increasing the count by 1
+    count += 1;
+    console.log(count)
+}
 
-// let id = setTimeout(increaseCount, 3000);
+let id = setTimeout(increaseCount, 3000);
 
-// // clearTimeout
-// clearTimeout(id); 
-// console.log('setTimeout is stopped.');
+// clearTimeout
+clearTimeout(id); 
+console.log('setTimeout is stopped.');
 
-// program to display a name
-// function greet(name, lastName) {
-//     console.log('Hello' + ' ' + name + ' ' + lastName);
-// }
+program to display a name
+function greet(name, lastName) {
+    console.log('Hello' + ' ' + name + ' ' + lastName);
+}
 
-// // passing argument to setTimeout
-// setTimeout(greet, 1000, 'John', 'Doe');
+// passing argument to setTimeout
+setTimeout(greet, 1000, 'John', 'Doe');
+
+
+
