@@ -1635,21 +1635,16 @@
 // setTimeout(greet, 1000, 'John', 'Doe');
 
 
-// function
-// function greet(name, callback) {
-//     console.log('Hi' + ' ' + name);
-//     callback();
-// }
+function  greet(name,callback){
+    console.log("HI"+' '+ name);
+    callback();
+}
 
-// // callback function
-// function callMe() {
-//     console.log('I am callback function');
-// }
+function eden(){
+    console.log("This is Fantastic");
+}
 
-// // passing function as an argument
-// greet('Peter', callMe);
-
-
+greet("peter",eden)
 
 
 
