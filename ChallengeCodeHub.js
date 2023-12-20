@@ -1701,6 +1701,23 @@
 
 
 
+api(function(result){
+    api2(function(result2){
+        api3(function(result3){
+             // do work
+            if(error) {
+                // do something
+            }
+            else {
+                // do something
+            }
+        });
+    });
+});
+
+
+
+
 
 
 
