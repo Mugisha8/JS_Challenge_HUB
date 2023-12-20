@@ -1647,17 +1647,17 @@
 // greet("peter",eden)
 
 
-const count = true;
+// const count = true;
 
-let countValue = new Promise(function (resolve, reject) {
-    if (count) {
-        resolve("There is a count value.");
-    } else {
-        reject("There is no count value");
-    }
-});
+// let countValue = new Promise(function (resolve, reject) {
+//     if (count) {
+//         resolve("There is a count value.");
+//     } else {
+//         reject("There is no count value");
+//     }
+// });
 
-console.log(countValue);
+// console.log(countValue);
 
 
 
