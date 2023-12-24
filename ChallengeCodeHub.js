@@ -1817,3 +1817,10 @@
 // // calling the async function
 // asyncFunc();
 
+
+
+// program to display a text using setInterval method
+function greet() {
+    console.log('Tonight');
+}
+setInterval(greet, 7000);
