@@ -1917,11 +1917,11 @@
 // console.log(monthDateYear); // 7/3/2020
 
 
-let a = this;
-console.log(a);  // Window {}
+// let a = this;
+// console.log(a);  // Window {}
 
-this.name = 'Sarah';
-console.log(window.name); // Sarah
+// this.name = 'Sarah';
+// console.log(window.name); // Sarah
 
 
 
