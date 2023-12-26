@@ -1985,3 +1985,15 @@
 // }
 
 // person.greet();
+
+const greet = {
+    name: 'Jack',
+
+    // method
+    sayHi () {
+        let hi = () => console.log(this.name);
+        hi();
+    }
+}
+
+greet.sayHi(); // Jack
