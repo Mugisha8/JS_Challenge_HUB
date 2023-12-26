@@ -1442,7 +1442,6 @@
 // arr = [1,33,67,335,74];
 // console.log(`The average of this array ${arr} is`,averageofArray(arr))
 
-
 // function getpositivenumbers(ar){
 
 //     let arr2=[];
@@ -1453,7 +1452,7 @@
 //         if(el>=0){
 //             arr2.push(el);
 //         }
-        
+
 //     }
 //     return arr2;
 // }
@@ -1461,7 +1460,6 @@
 // ar=[-42,-32,3,5,6,-3];
 
 // console.log(`The positive numbers in this array ${ar} is:`,getpositivenumbers(ar));
-
 
 // function positivenumber(arr){
 
@@ -1476,13 +1474,10 @@
 //     }
 // return ar1
 
-
 // }
 // arr=[24,44,2,5,3,6,-2,-32,-321]
 
 // console.log(positivenumber(arr))
-
-
 
 // function getpositivenumbers(fltArr){
 //     return fltArr.filter(el=>el>=0)
@@ -1490,9 +1485,6 @@
 
 // fltArr = [2,6,-2,-56,-9,56,2];
 // console.log(getpositivenumbers(fltArr))
-
-
-
 
 // let student1 = {
 //     age: 24,
@@ -1571,7 +1563,6 @@
 
 //***************************************************************************************** */
 
-
 // // program to display a text using setTimeout method
 // function greet() {
 //     console.log('Hello world');
@@ -1586,8 +1577,7 @@
 // }
 
 // let intervalId = setTimeout(greet, 3000);
-// console.log('Id: ' + intervalId);   
-
+// console.log('Id: ' + intervalId);
 
 // program to display time every 3 seconds
 // function showTime() {
@@ -1607,7 +1597,6 @@
 // // calling the function
 // showTime();
 
-
 // program to stop the setTimeout() method
 
 // let count = 0;
@@ -1623,7 +1612,7 @@
 // let id = setTimeout(increaseCount, 3000);
 
 // // clearTimeout
-// clearTimeout(id); 
+// clearTimeout(id);
 // console.log('setTimeout is stopped.');
 
 // program to display a name
@@ -1633,7 +1622,6 @@
 
 // // passing argument to setTimeout
 // setTimeout(greet, 1000, 'John', 'Doe');
-
 
 // function  greet(name,callback){
 //     console.log("HI"+' '+ name);
@@ -1645,7 +1633,6 @@
 // }
 
 // greet("peter",eden)
-
 
 // const count = true;
 
@@ -1659,47 +1646,41 @@
 
 // console.log(countValue);
 
-
-
 // returns a promise
 
 // let countValue = new Promise(function (resolve, reject) {
 //     resolve("Promise resolved");
 //   });
-  
+
 //   // executes when promise is resolved successfully
-  
+
 //   countValue
 //     .then(function successValue(result) {
 //       console.log(result);
 //     })
-  
+
 //     .then(function successValue1() {
 //       console.log("You can call multiple functions this way.");
 //     });
 
-
 // returns a promise
 // let countValue = new Promise(function (resolve, reject) {
-//     reject('Promise rejected'); 
+//     reject('Promise rejected');
 //  });
- 
+
 //  // executes when promise is resolved successfully
 //  countValue.then(
 //      function successValue(result) {
 //          console.log(result);
 //      },
 //   )
- 
+
 //  // executes if there is an error
 //  .catch(
 //      function errorValue(result) {
 //          console.log(result);
 //      }
 //  );
-
-
-
 
 // api(function(result){
 //     api2(function(result2){
@@ -1715,11 +1696,10 @@
 //     });
 // });
 
-
 // // returns a promise
 // let countValue = new Promise(function (resolve, reject) {
-//     // could be resolved or rejected   
-//     resolve('Promise resolved'); 
+//     // could be resolved or rejected
+//     resolve('Promise resolved');
 // });
 
 // // add other blocks of code
@@ -1746,17 +1726,17 @@
 // // a promise
 // let promise = new Promise(function (resolve, reject) {
 //     setTimeout(function () {
-//     resolve('Promise resolved')}, 4000); 
+//     resolve('Promise resolved')}, 4000);
 // });
 
 // // async function
 // async function asyncFunc() {
 //     try {
-//         // wait until the promise resolves 
-//         let result = await promise; 
+//         // wait until the promise resolves
+//         let result = await promise;
 
 //         console.log(result);
-//     }   
+//     }
 //     catch(error) {
 //         console.log(error);
 //     }
@@ -1765,20 +1745,6 @@
 // // calling the async function
 // asyncFunc(); // Promise resolved
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // async function example
 
 // async function f() {
@@ -1786,7 +1752,7 @@
 //     return Promise.resolve(1);
 // }
 
-// f(); 
+// f();
 
 // async function f() {
 //     console.log('Async function.');
@@ -1797,18 +1763,17 @@
 //     console.log(result)
 // });
 
-
 // // a promise
 // let promise = new Promise(function (resolve, reject) {
 //     setTimeout(function () {
-//     resolve('Promise resolved')}, 4000); 
+//     resolve('Promise resolved')}, 4000);
 // });
 
 // // async function
 // async function asyncFunc() {
 
-//     // wait until the promise resolves 
-//     let result = await promise; 
+//     // wait until the promise resolves
+//     let result = await promise;
 
 //     console.log(result);
 //     console.log('hello');
@@ -1817,9 +1782,7 @@
 // // calling the async function
 // asyncFunc();
 
-
-
-// 
+//
 
 // program to display time every 5 seconds
 // function showTime() {
@@ -1834,7 +1797,6 @@
 // }
 
 // let display = setInterval(showTime, 5000);
-
 
 // program to stop the setInterval() method after five times
 
@@ -1858,7 +1820,6 @@
 
 // }, 2000);
 
-
 // // program to display a name
 // function greet(name, lastName) {
 //     console.log('Hello' + ' ' + name + ' ' + lastName);
@@ -1875,7 +1836,7 @@
 // const handler = {
 //     set: function (obj, prop, value) {
 //         if (obj[prop]) {
-            
+
 //             // cannot change the student value
 //             console.log('Read only')
 //         }
@@ -1887,17 +1848,11 @@
 // proxy.name = 'John'; // Read only
 // proxy.age = 33; // Read only
 
-
-
-
-
-
 // ISO Date(International Standard)
 // const date = new Date("2020-07-01");
 
 // // the result date will be according to UTC
 // console.log(date); // Wed Jul 01 2020 05:45:00 GMT+0545
-
 
 // const date = new Date("2020-07");
 // console.log(date); // Wed Jul 01 2020 05:45:00 GMT+0545
@@ -1950,11 +1905,6 @@
 // event.setDate(35);
 
 // console.log(event.getDate()); // 7
- 
-
-
-
-
 
 // const currentDate = new Date();
 // const date = currentDate.getDate();
@@ -1965,3 +1915,13 @@
 // let monthDateYear = (month+1) + '/' + date + '/' + year;
 
 // console.log(monthDateYear); // 7/3/2020
+
+
+let a = this;
+console.log(a);  // Window {}
+
+this.name = 'Sarah';
+console.log(window.name); // Sarah
+
+
+
