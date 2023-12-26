@@ -1933,14 +1933,14 @@
 // greet(); // Window {}
 
 
-function Person() {
+// function Person() {
 
-    this.name = 'Jack';
-    console.log(this);
+//     this.name = 'Jack';
+//     console.log(this);
 
-}
+// }
 
-let person1 = new Person();
-console.log(person1.name);
+// let person1 = new Person();
+// console.log(person1.name);
 
 
