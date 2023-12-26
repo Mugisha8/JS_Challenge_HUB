@@ -1986,14 +1986,14 @@
 
 // person.greet();
 
-const greet = {
-    name: 'Jack',
+// const greet = {
+//     name: 'Jack',
 
-    // method
-    sayHi () {
-        let hi = () => console.log(this.name);
-        hi();
-    }
-}
+//     // method
+//     sayHi () {
+//         let hi = () => console.log(this.name);
+//         hi();
+//     }
+// }
 
-greet.sayHi(); // Jack
+// greet.sayHi(); // Jack
