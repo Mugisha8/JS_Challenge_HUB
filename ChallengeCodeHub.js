@@ -2053,18 +2053,18 @@
 
 // x = 21; // does not throw an error
 
-myVariable = 9;
-console.log(myVariable); // 9
+// myVariable = 9;
+// console.log(myVariable); // 9
 
-function hello() {
+// function hello() {
 
-    // applicable only for this function
-    'use strict';
+//     // applicable only for this function
+//     'use strict';
 
-    string = 'hello'; // throws an error
-}
+//     string = 'hello'; // throws an error
+// }
 
-hello();
+// hello();
 
 
 
