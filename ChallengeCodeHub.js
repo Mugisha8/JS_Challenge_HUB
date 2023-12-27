@@ -2036,14 +2036,14 @@
 // }
 // greet(); // undefined
 
-'use strict';
-this.name = 'Jack';
+// 'use strict';
+// this.name = 'Jack';
 
-function greet() {
-    console.log(this.name);
-}
+// function greet() {
+//     console.log(this.name);
+// }
 
-greet.call(this); // Jack
+// greet.call(this); // Jack
 
 
 
