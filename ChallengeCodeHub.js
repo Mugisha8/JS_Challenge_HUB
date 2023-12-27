@@ -2000,28 +2000,50 @@
 
 
 
-const person = {
-    name : 'Jack',
-    age: 25,
+// const person = {
+//     name : 'Jack',
+//     age: 25,
 
-    // this inside method
-    // this refers to the object itself
-    greet() {
-        console.log(this);
-        console.log(this.age);
+//     // this inside method
+//     // this refers to the object itself
+//     greet() {
+//         console.log(this);
+//         console.log(this.age);
 
-        // inner function
-        let innerFunc = () => {
+//         // inner function
+//         let innerFunc = () => {
         
-            // this refers to the global object
-            console.log(this);
-            console.log(this.age);
+//             // this refers to the global object
+//             console.log(this);
+//             console.log(this.age);
             
-        }
+//         }
 
-        innerFunc();
+//         innerFunc();
 
-    }
+//     }
+// }
+
+// person.greet();
+
+
+// 'use strict';
+// this.name = 'Jack';
+// function greet() {
+
+//     // this refers to undefined
+//     console.log(this);
+// }
+// greet(); // undefined
+
+'use strict';
+this.name = 'Jack';
+
+function greet() {
+    console.log(this.name);
 }
 
-person.greet();
+greet.call(this); // Jack
+
+
+
