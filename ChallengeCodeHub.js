@@ -2115,8 +2115,8 @@
 // console.log(arrIterator.next()); // {value: "o", done: false}
 // console.log(arrIterator.next()); // {value: undefined, done: true}
 
-const arr = ['h', 'e', 'l', 'l', 'o'];
+// const arr = ['h', 'e', 'l', 'l', 'o'];
 
-for (let i of arr) {
-    console.log(i);
-}
+// for (let i of arr) {
+//     console.log(i);
+// }
