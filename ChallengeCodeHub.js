@@ -1916,7 +1916,6 @@
 
 // console.log(monthDateYear); // 7/3/2020
 
-
 // let a = this;
 // console.log(a);  // Window {}
 
@@ -1931,7 +1930,6 @@
 // }
 
 // greet(); // Window {}
-
 
 // function Person() {
 
@@ -1957,9 +1955,6 @@
 
 // person.greet();
 
-
-
-
 // const person = {
 //     name : 'Jack',
 //     age: 25,
@@ -1972,11 +1967,11 @@
 
 //         // inner function
 //         function innerFunc() {
-        
+
 //             // this refers to the global object
 //             console.log(this);       // Window { ... }
 //             console.log(this.age);    // undefined
-            
+
 //         }
 
 //         innerFunc();
@@ -1998,8 +1993,6 @@
 
 // greet.sayHi(); // Jack
 
-
-
 // const person = {
 //     name : 'Jack',
 //     age: 25,
@@ -2012,11 +2005,11 @@
 
 //         // inner function
 //         let innerFunc = () => {
-        
+
 //             // this refers to the global object
 //             console.log(this);
 //             console.log(this.age);
-            
+
 //         }
 
 //         innerFunc();
@@ -2025,7 +2018,6 @@
 // }
 
 // person.greet();
-
 
 // 'use strict';
 // this.name = 'Jack';
@@ -2066,7 +2058,6 @@
 
 // hello();
 
-
 // 'use strict';
 
 // let obj = {};
@@ -2074,8 +2065,6 @@
 
 // // Assignment to a new property on a non-extensible object
 // obj.newValue = 'new value'; // throws an error
-
-
 
 // const arr = [1, 2 ,3];
 
@@ -2092,3 +2081,18 @@
 
 // // gives String Iterator
 // console.log(strIterator);
+const arr = [1, 2 ,3];
+
+// calling the Symbol.iterator() method
+const arrIterator = arr[Symbol.iterator]();
+
+// gives Array Iterator
+console.log(arrIterator);
+
+const str = 'hello';
+
+// calling the Symbol.iterator() method
+const strIterator = str[Symbol.iterator]();
+
+// gives String Iterator
+console.log(strIterator);
