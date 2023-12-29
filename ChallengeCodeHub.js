@@ -2098,8 +2098,19 @@
 // console.log(strIterator);
 
 
-const number = [ 1, 2, 3];
+// const number = [ 1, 2, 3];
 
-for (let n of  number[Symbol.iterator]()) {
-    console.log(n);
-}
+// for (let n of  number[Symbol.iterator]()) {
+//     console.log(n);
+// }
+
+const arr = ['h', 'e', 'l', 'l', 'o'];
+
+let arrIterator = arr[Symbol.iterator]();
+
+console.log(arrIterator.next()); // {value: "h", done: false}
+console.log(arrIterator.next()); // {value: "e", done: false}
+console.log(arrIterator.next()); // {value: "l", done: false}
+console.log(arrIterator.next()); // {value: "l", done: false}
+console.log(arrIterator.next()); // {value: "o", done: false}
+console.log(arrIterator.next()); // {value: undefined, done: true}
