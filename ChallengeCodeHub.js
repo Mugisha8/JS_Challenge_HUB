@@ -2081,18 +2081,19 @@
 
 // // gives String Iterator
 // console.log(strIterator);
-const arr = [1, 2 ,3];
+// const arr = [1, 2 ,3];
 
-// calling the Symbol.iterator() method
-const arrIterator = arr[Symbol.iterator]();
+// // calling the Symbol.iterator() method
+// const arrIterator = arr[Symbol.iterator]();
 
-// gives Array Iterator
-console.log(arrIterator);
+// // gives Array Iterator
+// console.log(arrIterator);
 
-const str = 'hello';
+// const str = 'hello';
 
-// calling the Symbol.iterator() method
-const strIterator = str[Symbol.iterator]();
+// // calling the Symbol.iterator() method
+// const strIterator = str[Symbol.iterator]();
 
-// gives String Iterator
-console.log(strIterator);
+// // gives String Iterator
+// console.log(strIterator);
+
