@@ -2295,31 +2295,31 @@
 
 // program to validate the phone number
 
-function validatePhone(num) {
+// function validatePhone(num) {
 
-    // regex pattern for phone number
-    const re = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/g;
+//     // regex pattern for phone number
+//     const re = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/g;
 
-    // check if the phone number is valid
-    let result = num.match(re);
-    if (result) {
-        console.log('The number is valid.');
-    }
-    else {
-        let num = prompt('Enter number in XXX-XXX-XXXX format:');
-        validatePhone(num);
-    }
-}
+//     // check if the phone number is valid
+//     let result = num.match(re);
+//     if (result) {
+//         console.log('The number is valid.');
+//     }
+//     else {
+//         let num = prompt('Enter number in XXX-XXX-XXXX format:');
+//         validatePhone(num);
+//     }
+// }
 
-// take input
-let number = prompt('Enter a number XXX-XXX-XXXX');
+// // take input
+// let number = prompt('Enter a number XXX-XXX-XXXX');
 
-validatePhone(number);
+// validatePhone(number);
 
-// // performing case-insensitive replacement
-// const result3 = string.replace(/hello/i, 'world');
-// console.log(result3); // world hello hello
+// // // performing case-insensitive replacement
+// // const result3 = string.replace(/hello/i, 'world');
+// // console.log(result3); // world hello hello
 
-// // performing global case-insensitive replacement
-// const result4 = string.replace(/hello/gi, 'world');
-// console.log(result4); // world world world
+// // // performing global case-insensitive replacement
+// // const result4 = string.replace(/hello/gi, 'world');
+// // console.log(result4); // world world world
