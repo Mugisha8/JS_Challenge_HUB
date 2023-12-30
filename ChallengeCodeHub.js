@@ -2291,6 +2291,31 @@
 // const result2 = string.replace(/hello/g, 'world');
 // console.log(result2); // Hello world world
 
+
+
+// program to validate the phone number
+
+function validatePhone(num) {
+
+    // regex pattern for phone number
+    const re = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/g;
+
+    // check if the phone number is valid
+    let result = num.match(re);
+    if (result) {
+        console.log('The number is valid.');
+    }
+    else {
+        let num = prompt('Enter number in XXX-XXX-XXXX format:');
+        validatePhone(num);
+    }
+}
+
+// take input
+let number = prompt('Enter a number XXX-XXX-XXXX');
+
+validatePhone(number);
+
 // // performing case-insensitive replacement
 // const result3 = string.replace(/hello/i, 'world');
 // console.log(result3); // world hello hello
