@@ -2256,3 +2256,13 @@
 // const result1 = string.replace(/hello/, 'world');
 // console.log(result1); // Hello world hello
 
+const string = 'Hello hello hello';
+
+// performing a replacement
+const result1 = string.replace(/hello/, 'world');
+console.log(result1); // Hello world hello
+
+// performing global replacement
+const result2 = string.replace(/hello/g, 'world');
+console.log(result2); // Hello world world
+
