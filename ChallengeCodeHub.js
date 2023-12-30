@@ -2250,3 +2250,9 @@
 // const result2 = 'Hello world! '.split(regex1);
 // console.log(result2); // ['Hello', 'world!', '']
 
+const string = 'Hello hello hello';
+
+// performing a replacement
+const result1 = string.replace(/hello/, 'world');
+console.log(result1); // Hello world hello
+
