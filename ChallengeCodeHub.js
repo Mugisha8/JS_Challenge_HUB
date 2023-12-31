@@ -2202,14 +2202,14 @@
 // console.log(result1); // 5
 
 
-const string = 'Find me';
-const pattern = /me/;
+// const string = 'Find me';
+// const pattern = /me/;
 
-// search if the pattern is in string variable
-const result1 = string.search(pattern);
-console.log(result1); // 5
+// // search if the pattern is in string variable
+// const result1 = string.search(pattern);
+// console.log(result1); // 5
 
-// replace the character with another character
-const string1 = 'Find me';
-string1.replace(pattern, 'found you'); // Find found you
+// // replace the character with another character
+// const string1 = 'Find me';
+// string1.replace(pattern, 'found you'); // Find found you
 
