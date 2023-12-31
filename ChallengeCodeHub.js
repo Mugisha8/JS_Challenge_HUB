@@ -2194,4 +2194,10 @@
 // console.log(regex.test('alias')); // true
 
 
+const string = 'Find me';
+const pattern = /me/;
+
+// search if the pattern is in string variable
+const result1 = string.search(pattern);
+console.log(result1); // 5
 
