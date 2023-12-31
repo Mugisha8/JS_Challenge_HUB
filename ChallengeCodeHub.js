@@ -2190,8 +2190,8 @@
 // console.log(generator.next());
 
 
-const regex = new RegExp(/^a...s$/);
-console.log(regex.test('alias')); // true
+// const regex = new RegExp(/^a...s$/);
+// console.log(regex.test('alias')); // true
 
 
 
