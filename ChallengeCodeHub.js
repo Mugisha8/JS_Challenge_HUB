@@ -2469,18 +2469,18 @@
 // // trying to access as a method
 // console.log(student.getName()); // error
 
-const student = {
-    firstName: 'Monica',
+// const student = {
+//     firstName: 'Monica',
     
-    //accessor property(setter)
-    set changeName(newName) {
-        this.firstName = newName;
-    }
-};
+//     //accessor property(setter)
+//     set changeName(newName) {
+//         this.firstName = newName;
+//     }
+// };
 
-console.log(student.firstName); // Monica
+// console.log(student.firstName); // Monica
 
-// change(set) object property using a setter
-student.changeName = 'Sarah';
+// // change(set) object property using a setter
+// student.changeName = 'Sarah';
 
-console.log(student.firstName); // Sarah
+// console.log(student.firstName); // Sarah
