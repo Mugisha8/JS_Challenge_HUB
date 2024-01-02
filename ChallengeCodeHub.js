@@ -2370,3 +2370,14 @@
 // const result3 = regex2.exec('My phone number is: 555 123-4567.');
 // console.log(result3); // ["555 123-4567", "555", "123", "4567"]
 
+let a = 5;
+let b = 'asdf';
+let c = a + b;
+
+// if you want to see the value of c
+console.log(c);
+
+// then do other operations
+if(c) {
+    // do something
+}
