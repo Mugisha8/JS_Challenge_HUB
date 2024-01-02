@@ -2414,16 +2414,16 @@
 
 // console.log(result); // 23
 
-// creating an object
-let student = { };
+// // creating an object
+// let student = { };
 
-// adding a property
-student.name = 'John';
+// // adding a property
+// student.name = 'John';
 
-// adding a method
-student.greet = function() {
-    console.log('hello');
-}
+// // adding a method
+// student.greet = function() {
+//     console.log('hello');
+// }
 
-// accessing a method
-student.greet(); // hello
+// // accessing a method
+// student.greet(); // hello
