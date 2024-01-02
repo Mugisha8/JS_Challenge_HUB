@@ -2382,11 +2382,11 @@
 //     // do something
 // }
 
-let a = 6;
-let b = 9;
-let c = a * b;
+// let a = 6;
+// let b = 9;
+// let c = a * b;
 
-// stops the execution
-debugger;
+// // stops the execution
+// debugger;
 
-console.log(c);
+// console.log(c);
