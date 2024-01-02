@@ -2369,3 +2369,4 @@
 // const regex2 = /(\d{3})\D(\d{3})-(\d{4})/g;
 // const result3 = regex2.exec('My phone number is: 555 123-4567.');
 // console.log(result3); // ["555 123-4567", "555", "123", "4567"]
+
