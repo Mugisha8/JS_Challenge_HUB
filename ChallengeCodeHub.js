@@ -2509,3 +2509,4 @@
 // student.changeName = 'Sarah';
 
 // console.log(student.firstName); // Sarah
+
