@@ -2535,7 +2535,7 @@ if(todoText.trim() !== ''){
 const listItem = document.createElement('li')
 listItem.textContent = todoText
 
-
+//adding event listener to listItem 
 
 
 
