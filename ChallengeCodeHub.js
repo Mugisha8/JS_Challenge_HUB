@@ -2510,3 +2510,24 @@
 
 // console.log(student.firstName); // Sarah
 
+
+
+//-----------
+
+//get Dom reference
+
+const inputTask = document.getElementById('newTodo')
+const addButton = document.getElementById('AddTodo')
+const TaskList = document.getElementById('todolist')
+
+// add event listener
+
+
+
+
+
+//-----------
+
+
+
+
