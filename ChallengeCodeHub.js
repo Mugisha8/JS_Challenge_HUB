@@ -2522,6 +2522,19 @@ const TaskList = document.getElementById('todolist')
 
 // add event listener
 
+addButton.addEventListener('click',function(){
+
+//get value from input
+
+
+
+
+
+
+
+})
+
+
 
 
 
