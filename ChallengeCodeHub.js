@@ -2528,7 +2528,13 @@ addButton.addEventListener('click',function(){
 
 const todoText=inputTask.value;
 
+//check if the input value is empty
+
 if(todoText.trim !== ''){
+
+const listItem = document.createElement('li')
+listItem.textContent = todoText
+
 
 
 }
