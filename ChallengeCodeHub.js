@@ -2526,10 +2526,12 @@ addButton.addEventListener('click',function(){
 
 //get value from input
 
+const todoText=inputTask.value;
+
+if(todoText.trim !== ''){
 
 
-
-
+}
 
 
 })
