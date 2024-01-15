@@ -2097,7 +2097,6 @@
 // // gives String Iterator
 // console.log(strIterator);
 
-
 // const number = [ 1, 2, 3];
 
 // for (let n of  number[Symbol.iterator]()) {
@@ -2162,7 +2161,7 @@
 
 //     console.log("1. code before the first yield");
 //     yield 100;
-    
+
 //    console.log("2. code before the second yield");
 //     yield 200;
 // }
@@ -2189,10 +2188,8 @@
 // console.log(generator.next());
 // console.log(generator.next());
 
-
 // const regex = new RegExp(/^a...s$/);
 // console.log(regex.test('alias')); // true
-
 
 // const string = 'Find me';
 // const pattern = /me/;
@@ -2200,7 +2197,6 @@
 // // search if the pattern is in string variable
 // const result1 = string.search(pattern);
 // console.log(result1); // 5
-
 
 // const string = 'Find me';
 // const pattern = /me/;
@@ -2280,7 +2276,6 @@
 // const result3 = string.replace(/hello/i, 'world');
 // console.log(result3); // world hello hello
 
-
 // const string = 'Hello hello hello';
 
 // // performing a replacement
@@ -2290,8 +2285,6 @@
 // // performing global replacement
 // const result2 = string.replace(/hello/g, 'world');
 // console.log(result2); // Hello world world
-
-
 
 // program to validate the phone number
 
@@ -2324,7 +2317,6 @@
 // // const result4 = string.replace(/hello/gi, 'world');
 // // console.log(result4); // world world world
 
-
 // program to validate the email address
 
 // function validateEmail(email) {
@@ -2347,7 +2339,6 @@
 // let email = prompt('Enter an email: ');
 
 // validateEmail(email);
-
 
 // const string = 'Find me';
 // const pattern = /me/;
@@ -2428,7 +2419,6 @@
 // // accessing a method
 // student.greet(); // hello
 
-
 // const person = {
 //     name: 'John',
 //     age: 30,
@@ -2453,7 +2443,7 @@
 
 //     // data property
 //     firstName: 'Monica',
-    
+
 //     // accessor property(getter)
 //     get getName() {
 //         return this.firstName;
@@ -2471,7 +2461,7 @@
 
 // const student = {
 //     firstName: 'Monica',
-    
+
 //     //accessor property(setter)
 //     set changeName(newName) {
 //         this.firstName = newName;
@@ -2510,48 +2500,33 @@
 
 // console.log(student.firstName); // Sarah
 
-
-
 //-----------
 
 //get Dom reference
 
-const inputTask = document.getElementById('newTodo')
-const addButton = document.getElementById('AddTodo')
-const TaskList = document.getElementById('todolist')
+const inputTask = document.getElementById("newTodo");
+const addButton = document.getElementById("AddTodo");
+const TaskList = document.getElementById("todolist");
 
 // add event listener
 
-addButton.addEventListener('click',function(){
+addButton.addEventListener("click", function () {
+  //get value from input
 
-//get value from input
+  const todoText = inputTask.value;
 
-const todoText=inputTask.value;
+  //check if the input value is empty
 
-//check if the input value is empty
+  if (todoText.trim() !== "") {
+    const listItem = document.createElement("li");
+    listItem.textContent = todoText;
 
-if(todoText.trim() !== ''){
+    //adding event listener to listItem
 
-const listItem = document.createElement('li')
-listItem.textContent = todoText
-
-//adding event listener to listItem 
-
-
-
-
-}
-
-
-})
-
-
-
-
-
+    listItem.addEventListener("click", function () {
+      listItem.classList.toggle("completed");
+    });
+  }
+});
 
 //-----------
-
-
-
-
