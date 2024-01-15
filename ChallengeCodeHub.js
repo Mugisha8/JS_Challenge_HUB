@@ -2503,30 +2503,32 @@
 //-----------
 
 //get Dom reference
+document.addEventListener("DOMContentLoaded", function () {
+  const inputTask = document.getElementById("newTodo");
+  const addButton = document.getElementById("addTodo");
+  const taskList = document.getElementById("todolist");
 
-const inputTask = document.getElementById("newTodo");
-const addButton = document.getElementById("AddTodo");
-const TaskList = document.getElementById("todolist");
+  // add event listener
 
-// add event listener
+  addButton.addEventListener("click", function () {
+    //get value from input
 
-addButton.addEventListener("click", function () {
-  //get value from input
+    const todoText = inputTask.value;
 
-  const todoText = inputTask.value;
+    //check if the input value is empty
 
-  //check if the input value is empty
+    if (todoText.trim() !== "") {
+      const listItem = document.createElement("li");
+      listItem.textContent = todoText;
 
-  if (todoText.trim() !== "") {
-    const listItem = document.createElement("li");
-    listItem.textContent = todoText;
+      //adding event listener to listItem
 
-    //adding event listener to listItem
+      listItem.addEventListener("click", function () {
+        listItem.classList.toggle("completed");
+      });
 
-    listItem.addEventListener("click", function () {
-      listItem.classList.toggle("completed");
-    });
-  }
+      taskList.appendChild(listItem);
+    }
+  });
 });
-
 //-----------
